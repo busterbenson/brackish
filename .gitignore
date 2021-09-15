@@ -1,5 +1,16 @@
 # Custom stuff
 .DS_Store
+tmp
+*.rdb
+.env
+.sass-cache
+.tweet-cache
+Gemfile.lock
+.DS_Store
+.jekyll-cache
+.jekyll-metadata
+.git
+_site
 
 # Logs
 logs
