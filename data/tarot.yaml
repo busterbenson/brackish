@@ -1,0 +1,1097 @@
+---
+'major-00':
+  name: The Fool
+  suit: major
+  decks: 
+    'rws': 
+      image: 'rws/rws-arcana-00.png'
+    'thoth': 
+      image: 'thoth/thoth-arcana-00.png'
+    'cbd': 
+      image: 'cbd/cbd-arcana-00.jpg'
+    'mary': 
+      image: 'mary/mary-arcana-00.png'
+    'brady': 
+      image: 'brady/brady-arcana-00.png'
+'major-01':
+  name: The Magician
+  suit: major
+  decks: 
+    'rws': 
+      image: 'rws/rws-arcana-01.png'
+    'thoth': 
+      image: 'thoth/thoth-arcana-01.png'
+    'cbd': 
+      image: 'cbd/cbd-arcana-01.jpg'
+    'mary': 
+      image: 'mary/mary-arcana-01.png'
+    'brady': 
+      image: 'brady/brady-arcana-01.png'
+'major-02':
+  name: The Priestess
+  suit: major
+  decks: 
+    'rws': 
+      image: 'rws/rws-arcana-02.png'
+    'thoth': 
+      image: 'thoth/thoth-arcana-02.png'
+    'cbd': 
+      image: 'cbd/cbd-arcana-02.jpg'
+    'mary': 
+      image: 'mary/mary-arcana-02.png'
+    'brady': 
+      image: 'brady/brady-arcana-02.png'
+'major-03':
+  name: The Empress
+  suit: major
+  decks: 
+    'rws': 
+      image: 'rws/rws-arcana-03.png'
+    'thoth': 
+      image: 'thoth/thoth-arcana-03.png'
+    'cbd': 
+      image: 'cbd/cbd-arcana-03.jpg'
+    'mary': 
+      image: 'mary/mary-arcana-03.png'
+    'brady': 
+      image: 'brady/brady-arcana-03.png'
+'major-04':
+  name: The Emperor
+  suit: major
+  decks: 
+    'rws': 
+      image: 'rws/rws-arcana-04.png'
+    'thoth': 
+      image: 'thoth/thoth-arcana-04.png'
+    'cbd': 
+      image: 'cbd/cbd-arcana-04.jpg'
+    'mary': 
+      image: 'mary/mary-arcana-04.png'
+    'brady': 
+      image: 'brady/brady-arcana-04.png'
+'major-05':
+  name: The Heirophant
+  suit: major
+  decks: 
+    'rws': 
+      image: 'rws/rws-arcana-05.png'
+    'thoth': 
+      image: 'thoth/thoth-arcana-05.png'
+    'cbd': 
+      image: 'cbd/cbd-arcana-05.jpg'
+    'mary': 
+      image: 'mary/mary-arcana-05.png'
+    'brady': 
+      image: 'brady/brady-arcana-05.png'
+'major-06':
+  name: The Lovers
+  suit: major
+  decks: 
+    'rws': 
+      image: 'rws/rws-arcana-06.png'
+    'thoth': 
+      image: 'thoth/thoth-arcana-06.png'
+    'cbd': 
+      image: 'cbd/cbd-arcana-06.jpg'
+    'mary': 
+      image: 'mary/mary-arcana-06.png'
+    'brady': 
+      image: 'brady/brady-arcana-06.png'
+'major-07':
+  name: The Chariot
+  suit: major
+  decks: 
+    'rws': 
+      image: 'rws/rws-arcana-07.png'
+    'thoth': 
+      image: 'thoth/thoth-arcana-07.png'
+    'cbd': 
+      image: 'cbd/cbd-arcana-07.jpg'
+    'mary': 
+      image: 'mary/mary-arcana-07.png'
+    'brady': 
+      image: 'brady/brady-arcana-07.png'
+'major-08':
+  name: Strength
+  suit: major
+  decks: 
+    'rws': 
+      image: 'rws/rws-arcana-08.png'
+    'thoth': 
+      image: 'thoth/thoth-arcana-08.png'
+    'cbd': 
+      image: 'cbd/cbd-arcana-08.jpg'
+    'mary': 
+      image: 'mary/mary-arcana-08.png'
+    'brady': 
+      image: 'brady/brady-arcana-08.png'
+'major-09':
+  name: The Hermit
+  suit: major
+  decks: 
+    'rws': 
+      image: 'rws/rws-arcana-09.png'
+    'thoth': 
+      image: 'thoth/thoth-arcana-09.png'
+    'cbd': 
+      image: 'cbd/cbd-arcana-09.jpg'
+    'mary': 
+      image: 'mary/mary-arcana-09.png'
+    'brady': 
+      image: 'brady/brady-arcana-09.png'
+'major-10':
+  name: The Wheel of Fortune
+  suit: major
+  decks: 
+    'rws': 
+      image: 'rws/rws-arcana-10.png'
+    'thoth': 
+      image: 'thoth/thoth-arcana-10.png'
+    'cbd': 
+      image: 'cbd/cbd-arcana-10.jpg'
+    'mary': 
+      image: 'mary/mary-arcana-10.png'
+    'brady': 
+      image: 'brady/brady-arcana-10.png'
+'major-11':
+  name: Justice
+  suit: major
+  decks: 
+    'rws': 
+      image: 'rws/rws-arcana-11.png'
+    'thoth': 
+      image: 'thoth/thoth-arcana-11.png'
+    'cbd': 
+      image: 'cbd/cbd-arcana-11.jpg'
+    'mary': 
+      image: 'mary/mary-arcana-11.png'
+    'brady': 
+      image: 'brady/brady-arcana-11.png'
+'major-12':
+  name: The Hanged Man
+  suit: major
+  decks: 
+    'rws': 
+      image: 'rws/rws-arcana-12.png'
+    'thoth': 
+      image: 'thoth/thoth-arcana-12.png'
+    'cbd': 
+      image: 'cbd/cbd-arcana-12.jpg'
+    'mary': 
+      image: 'mary/mary-arcana-12.png'
+    'brady': 
+      image: 'brady/brady-arcana-12.png'
+'major-13':
+  name: Death
+  suit: major
+  decks: 
+    'rws': 
+      image: 'rws/rws-arcana-13.png'
+    'thoth': 
+      image: 'thoth/thoth-arcana-13.png'
+    'cbd': 
+      image: 'cbd/cbd-arcana-13.jpg'
+    'mary': 
+      image: 'mary/mary-arcana-13.png'
+    'brady': 
+      image: 'brady/brady-arcana-13.png'
+'major-14':
+  name: Temperance
+  suit: major
+  decks: 
+    'rws': 
+      image: 'rws/rws-arcana-14.png'
+    'thoth': 
+      image: 'thoth/thoth-arcana-14.png'
+    'cbd': 
+      image: 'cbd/cbd-arcana-14.jpg'
+    'mary': 
+      image: 'mary/mary-arcana-14.png'
+    'brady': 
+      image: 'brady/brady-arcana-14.png'
+'major-15':
+  name: The Devil
+  suit: major
+  decks: 
+    'rws': 
+      image: 'rws/rws-arcana-15.png'
+    'thoth': 
+      image: 'thoth/thoth-arcana-15.png'
+    'cbd': 
+      image: 'cbd/cbd-arcana-15.jpg'
+    'mary': 
+      image: 'mary/mary-arcana-15.png'
+    'brady': 
+      image: 'brady/brady-arcana-15.png'
+'major-16':
+  name: The Tower
+  suit: major
+  decks: 
+    'rws': 
+      image: 'rws/rws-arcana-16.png'
+    'thoth': 
+      image: 'thoth/thoth-arcana-16.png'
+    'cbd': 
+      image: 'cbd/cbd-arcana-16.jpg'
+    'mary': 
+      image: 'mary/mary-arcana-16.png'
+    'brady': 
+      image: 'brady/brady-arcana-16.png'
+'major-17':
+  name: The Star
+  suit: major
+  decks: 
+    'rws': 
+      image: 'rws/rws-arcana-17.png'
+    'thoth': 
+      image: 'thoth/thoth-arcana-17.png'
+    'cbd': 
+      image: 'cbd/cbd-arcana-17.jpg'
+    'mary': 
+      image: 'mary/mary-arcana-17.png'
+    'brady': 
+      image: 'brady/brady-arcana-17.png'
+'major-18':
+  name: The Moon
+  suit: major
+  decks: 
+    'rws': 
+      image: 'rws/rws-arcana-18.png'
+    'thoth': 
+      image: 'thoth/thoth-arcana-18.png'
+    'cbd': 
+      image: 'cbd/cbd-arcana-18.jpg'
+    'mary': 
+      image: 'mary/mary-arcana-18.png'
+    'brady': 
+      image: 'brady/brady-arcana-18.png'
+'major-19':
+  name: The Sun
+  suit: major
+  decks: 
+    'rws': 
+      image: 'rws/rws-arcana-19.png'
+    'thoth': 
+      image: 'thoth/thoth-arcana-19.png'
+    'cbd': 
+      image: 'cbd/cbd-arcana-19.jpg'
+    'mary': 
+      image: 'mary/mary-arcana-19.png'
+    'brady': 
+      image: 'brady/brady-arcana-19.png'
+'major-20':
+  name: Judgment
+  suit: major
+  decks: 
+    'rws': 
+      image: 'rws/rws-arcana-20.png'
+    'thoth': 
+      image: 'thoth/thoth-arcana-20.png'
+    'cbd': 
+      image: 'cbd/cbd-arcana-20.jpg'
+    'mary': 
+      image: 'mary/mary-arcana-20.png'
+    'brady': 
+      image: 'brady/brady-arcana-20.png'
+'major-21':
+  name: The World
+  suit: major
+  decks: 
+    'rws': 
+      image: 'rws/rws-arcana-21.png'
+    'thoth': 
+      image: 'thoth/thoth-arcana-21.png'
+    'cbd': 
+      image: 'cbd/cbd-arcana-21.jpg'
+    'mary': 
+      image: 'mary/mary-arcana-21.png'
+    'brady': 
+      image: 'brady/brady-arcana-21.png'
+
+'cups-01':
+  name: Ace of Cups
+  suit: cups
+  decks:
+    'rws': 
+      image: 'rws/rws-cups-01.png'
+    'thoth': 
+      image: 'thoth/thoth-cups-01.png'
+    'cbd': 
+      image: 'cbd/cbd-cups-01.jpg'
+    'mary': 
+      image: 'mary/mary-cups-01.png'
+    'brady': 
+      image: 'brady/brady-cups-01.png'
+'cups-02':
+  name: 2 of Cups
+  suit: cups
+  decks:
+    'rws': 
+      image: 'rws/rws-cups-02.png'
+    'thoth': 
+      image: 'thoth/thoth-cups-02.png'
+    'cbd': 
+      image: 'cbd/cbd-cups-02.jpg'
+    'mary': 
+      image: 'mary/mary-cups-02.png'
+    'brady': 
+      image: 'brady/brady-cups-02.png'
+'cups-03':
+  name: 3 of Cups
+  suit: cups
+  decks:
+    'rws': 
+      image: 'rws/rws-cups-03.png'
+    'thoth': 
+      image: 'thoth/thoth-cups-03.png'
+    'cbd': 
+      image: 'cbd/cbd-cups-03.jpg'
+    'mary': 
+      image: 'mary/mary-cups-03.png'
+    'brady': 
+      image: 'brady/brady-cups-03.png'
+'cups-04':
+  name: 4 of Cups
+  suit: cups
+  decks:
+    'rws': 
+      image: 'rws/rws-cups-04.png'
+    'thoth': 
+      image: 'thoth/thoth-cups-04.png'
+    'cbd': 
+      image: 'cbd/cbd-cups-04.jpg'
+    'mary': 
+      image: 'mary/mary-cups-04.png'
+    'brady': 
+      image: 'brady/brady-cups-04.png'
+'cups-05':
+  name: 5 of Cups
+  suit: cups
+  decks:
+    'rws': 
+      image: 'rws/rws-cups-05.png'
+    'thoth': 
+      image: 'thoth/thoth-cups-05.png'
+    'cbd': 
+      image: 'cbd/cbd-cups-05.jpg'
+    'mary': 
+      image: 'mary/mary-cups-05.png'
+    'brady': 
+      image: 'brady/brady-cups-05.png'
+'cups-06':
+  name: 6 of Cups
+  suit: cups
+  decks:
+    'rws': 
+      image: 'rws/rws-cups-06.png'
+    'thoth': 
+      image: 'thoth/thoth-cups-06.png'
+    'cbd': 
+      image: 'cbd/cbd-cups-06.jpg'
+    'mary': 
+      image: 'mary/mary-cups-06.png'
+    'brady': 
+      image: 'brady/brady-cups-06.png'
+'cups-07':
+  name: 7 of Cups
+  suit: cups
+  decks:
+    'rws': 
+      image: 'rws/rws-cups-07.png'
+    'thoth': 
+      image: 'thoth/thoth-cups-07.png'
+    'cbd': 
+      image: 'cbd/cbd-cups-07.jpg'
+    'mary': 
+      image: 'mary/mary-cups-07.png'
+    'brady': 
+      image: 'brady/brady-cups-07.png'
+'cups-08':
+  name: 8 of Cups
+  suit: cups
+  decks:
+    'rws': 
+      image: 'rws/rws-cups-08.png'
+    'thoth': 
+      image: 'thoth/thoth-cups-08.png'
+    'cbd': 
+      image: 'cbd/cbd-cups-08.jpg'
+    'mary': 
+      image: 'mary/mary-cups-08.png'
+    'brady': 
+      image: 'brady/brady-cups-08.png'
+'cups-09':
+  name: 9 of Cups
+  suit: cups
+  decks:
+    'rws': 
+      image: 'rws/rws-cups-09.png'
+    'thoth': 
+      image: 'thoth/thoth-cups-09.png'
+    'cbd': 
+      image: 'cbd/cbd-cups-09.jpg'
+    'mary': 
+      image: 'mary/mary-cups-09.png'
+    'brady': 
+      image: 'brady/brady-cups-09.png'
+'cups-10':
+  name: 10 of Cups
+  suit: cups
+  decks:
+    'rws': 
+      image: 'rws/rws-cups-10.png'
+    'thoth': 
+      image: 'thoth/thoth-cups-10.png'
+    'cbd': 
+      image: 'cbd/cbd-cups-10.jpg'
+    'mary': 
+      image: 'mary/mary-cups-10.png'
+    'brady': 
+      image: 'brady/brady-cups-10.png'
+'cups-11':
+  name: Page of Cups
+  suit: cups
+  decks:
+    'rws': 
+      image: 'rws/rws-cups-11.png'
+    'thoth': 
+      image: 'thoth/thoth-cups-11.png'
+    'cbd': 
+      image: 'cbd/cbd-cups-11.jpg'
+    'mary': 
+      image: 'mary/mary-cups-11.png'
+    'brady': 
+      image: 'brady/brady-cups-11.png'
+'cups-12':
+  name: Knight of Cups
+  suit: cups
+  decks:
+    'rws': 
+      image: 'rws/rws-cups-12.png'
+    'thoth': 
+      image: 'thoth/thoth-cups-12.png'
+    'cbd': 
+      image: 'cbd/cbd-cups-12.jpg'
+    'mary': 
+      image: 'mary/mary-cups-12.png'
+    'brady': 
+      image: 'brady/brady-cups-12.png'
+'cups-13':
+  name: Queen of Cups
+  suit: cups
+  decks:
+    'rws': 
+      image: 'rws/rws-cups-13.png'
+    'thoth': 
+      image: 'thoth/thoth-cups-13.png'
+    'cbd': 
+      image: 'cbd/cbd-cups-13.jpg'
+    'mary': 
+      image: 'mary/mary-cups-13.png'
+    'brady': 
+      image: 'brady/brady-cups-13.png'
+'cups-14':
+  name: King of Cups
+  suit: cups
+  decks:
+    'rws': 
+      image: 'rws/rws-cups-14.png'
+    'thoth': 
+      image: 'thoth/thoth-cups-14.png'
+    'cbd': 
+      image: 'cbd/cbd-cups-14.jpg'
+    'mary': 
+      image: 'mary/mary-cups-14.png'
+    'brady': 
+      image: 'brady/brady-cups-14.png'
+
+'coins-01':
+  name: Ace of Coins
+  suit: coins
+  decks:
+    'rws': 
+      image: 'rws/rws-coins-01.png'
+    'thoth': 
+      image: 'thoth/thoth-coins-01.png'
+    'cbd': 
+      image: 'cbd/cbd-coins-01.jpg'
+    'mary': 
+      image: 'mary/mary-coins-01.png'
+    'brady': 
+      image: 'brady/brady-coins-01.png'
+'coins-02':
+  name: 2 of Coins
+  suit: coins
+  decks:
+    'rws': 
+      image: 'rws/rws-coins-02.png'
+    'thoth': 
+      image: 'thoth/thoth-coins-02.png'
+    'cbd': 
+      image: 'cbd/cbd-coins-02.jpg'
+    'mary': 
+      image: 'mary/mary-coins-02.png'
+    'brady': 
+      image: 'brady/brady-coins-02.png'
+'coins-03':
+  name: 3 of Coins
+  suit: coins
+  decks:
+    'rws': 
+      image: 'rws/rws-coins-03.png'
+    'thoth': 
+      image: 'thoth/thoth-coins-03.png'
+    'cbd': 
+      image: 'cbd/cbd-coins-03.jpg'
+    'mary': 
+      image: 'mary/mary-coins-03.png'
+    'brady': 
+      image: 'brady/brady-coins-03.png'
+'coins-04':
+  name: 4 of Coins
+  suit: coins
+  decks:
+    'rws': 
+      image: 'rws/rws-coins-04.png'
+    'thoth': 
+      image: 'thoth/thoth-coins-04.png'
+    'cbd': 
+      image: 'cbd/cbd-coins-04.jpg'
+    'mary': 
+      image: 'mary/mary-coins-04.png'
+    'brady': 
+      image: 'brady/brady-coins-04.png'
+'coins-05':
+  name: 5 of Coins
+  suit: coins
+  decks:
+    'rws': 
+      image: 'rws/rws-coins-05.png'
+    'thoth': 
+      image: 'thoth/thoth-coins-05.png'
+    'cbd': 
+      image: 'cbd/cbd-coins-05.jpg'
+    'mary': 
+      image: 'mary/mary-coins-05.png'
+    'brady': 
+      image: 'brady/brady-coins-05.png'
+'coins-06':
+  name: 6 of Coins
+  suit: coins
+  decks:
+    'rws': 
+      image: 'rws/rws-coins-06.png'
+    'thoth': 
+      image: 'thoth/thoth-coins-06.png'
+    'cbd': 
+      image: 'cbd/cbd-coins-06.jpg'
+    'mary': 
+      image: 'mary/mary-coins-06.png'
+    'brady': 
+      image: 'brady/brady-coins-06.png'
+'coins-07':
+  name: 7 of Coins
+  suit: coins
+  decks:
+    'rws': 
+      image: 'rws/rws-coins-07.png'
+    'thoth': 
+      image: 'thoth/thoth-coins-07.png'
+    'cbd': 
+      image: 'cbd/cbd-coins-07.jpg'
+    'mary': 
+      image: 'mary/mary-coins-07.png'
+    'brady': 
+      image: 'brady/brady-coins-07.png'
+'coins-08':
+  name: 8 of Coins
+  suit: coins
+  decks:
+    'rws': 
+      image: 'rws/rws-coins-08.png'
+    'thoth': 
+      image: 'thoth/thoth-coins-08.png'
+    'cbd': 
+      image: 'cbd/cbd-coins-08.jpg'
+    'mary': 
+      image: 'mary/mary-coins-08.png'
+    'brady': 
+      image: 'brady/brady-coins-08.png'
+'coins-09':
+  name: 9 of Coins
+  suit: coins
+  decks:
+    'rws': 
+      image: 'rws/rws-coins-09.png'
+    'thoth': 
+      image: 'thoth/thoth-coins-09.png'
+    'cbd': 
+      image: 'cbd/cbd-coins-09.jpg'
+    'mary': 
+      image: 'mary/mary-coins-09.png'
+    'brady': 
+      image: 'brady/brady-coins-09.png'
+'coins-10':
+  name: 10 of Coins
+  suit: coins
+  decks:
+    'rws': 
+      image: 'rws/rws-coins-10.png'
+    'thoth': 
+      image: 'thoth/thoth-coins-10.png'
+    'cbd': 
+      image: 'cbd/cbd-coins-10.jpg'
+    'mary': 
+      image: 'mary/mary-coins-10.png'
+    'brady': 
+      image: 'brady/brady-coins-10.png'
+'coins-11':
+  name: Page of Coins
+  suit: coins
+  decks:
+    'rws': 
+      image: 'rws/rws-coins-11.png'
+    'thoth': 
+      image: 'thoth/thoth-coins-11.png'
+    'cbd': 
+      image: 'cbd/cbd-coins-11.jpg'
+    'mary': 
+      image: 'mary/mary-coins-11.png'
+    'brady': 
+      image: 'brady/brady-coins-11.png'
+'coins-12':
+  name: Knight of Coins
+  suit: coins
+  decks:
+    'rws': 
+      image: 'rws/rws-coins-12.png'
+    'thoth': 
+      image: 'thoth/thoth-coins-12.png'
+    'cbd': 
+      image: 'cbd/cbd-coins-12.jpg'
+    'mary': 
+      image: 'mary/mary-coins-12.png'
+    'brady': 
+      image: 'brady/brady-coins-12.png'
+'coins-13':
+  name: Queen of Coins
+  suit: coins
+  decks:
+    'rws': 
+      image: 'rws/rws-coins-13.png'
+    'thoth': 
+      image: 'thoth/thoth-coins-13.png'
+    'cbd': 
+      image: 'cbd/cbd-coins-13.jpg'
+    'mary': 
+      image: 'mary/mary-coins-13.png'
+    'brady': 
+      image: 'brady/brady-coins-13.png'
+'coins-14':
+  name: King of Coins
+  suit: coins
+  decks:
+    'rws': 
+      image: 'rws/rws-coins-14.png'
+    'thoth': 
+      image: 'thoth/thoth-coins-14.png'
+    'cbd': 
+      image: 'cbd/cbd-coins-14.jpg'
+    'mary': 
+      image: 'mary/mary-coins-14.png'
+    'brady': 
+      image: 'brady/brady-coins-14.png'
+
+'swords-01':
+  name: Ace of Swords
+  suit: swords
+  decks:
+    'rws': 
+      image: 'rws/rws-swords-01.png'
+    'thoth': 
+      image: 'thoth/thoth-swords-01.png'
+    'cbd': 
+      image: 'cbd/cbd-swords-01.jpg'
+    'mary': 
+      image: 'mary/mary-swords-01.png'
+    'brady': 
+      image: 'brady/brady-swords-01.png'
+'swords-02':
+  name: 2 of Swords
+  suit: swords
+  decks:
+    'rws': 
+      image: 'rws/rws-swords-02.png'
+    'thoth': 
+      image: 'thoth/thoth-swords-02.png'
+    'cbd': 
+      image: 'cbd/cbd-swords-02.jpg'
+    'mary': 
+      image: 'mary/mary-swords-02.png'
+    'brady': 
+      image: 'brady/brady-swords-02.png'
+'swords-03':
+  name: 3 of Swords
+  suit: swords
+  decks:
+    'rws': 
+      image: 'rws/rws-swords-03.png'
+    'thoth': 
+      image: 'thoth/thoth-swords-03.png'
+    'cbd': 
+      image: 'cbd/cbd-swords-03.jpg'
+    'mary': 
+      image: 'mary/mary-swords-03.png'
+    'brady': 
+      image: 'brady/brady-swords-03.png'
+'swords-04':
+  name: 4 of Swords
+  suit: swords
+  decks:
+    'rws': 
+      image: 'rws/rws-swords-04.png'
+    'thoth': 
+      image: 'thoth/thoth-swords-04.png'
+    'cbd': 
+      image: 'cbd/cbd-swords-04.jpg'
+    'mary': 
+      image: 'mary/mary-swords-04.png'
+    'brady': 
+      image: 'brady/brady-swords-04.png'
+'swords-05':
+  name: 5 of Swords
+  suit: swords
+  decks:
+    'rws': 
+      image: 'rws/rws-swords-05.png'
+    'thoth': 
+      image: 'thoth/thoth-swords-05.png'
+    'cbd': 
+      image: 'cbd/cbd-swords-05.jpg'
+    'mary': 
+      image: 'mary/mary-swords-05.png'
+    'brady': 
+      image: 'brady/brady-swords-05.png'
+'swords-06':
+  name: 6 of Swords
+  suit: swords
+  decks:
+    'rws': 
+      image: 'rws/rws-swords-06.png'
+    'thoth': 
+      image: 'thoth/thoth-swords-06.png'
+    'cbd': 
+      image: 'cbd/cbd-swords-06.jpg'
+    'mary': 
+      image: 'mary/mary-swords-06.png'
+    'brady': 
+      image: 'brady/brady-swords-06.png'
+'swords-07':
+  name: 7 of Swords
+  suit: swords
+  decks:
+    'rws': 
+      image: 'rws/rws-swords-07.png'
+    'thoth': 
+      image: 'thoth/thoth-swords-07.png'
+    'cbd': 
+      image: 'cbd/cbd-swords-07.jpg'
+    'mary': 
+      image: 'mary/mary-swords-07.png'
+    'brady': 
+      image: 'brady/brady-swords-07.png'
+'swords-08':
+  name: 8 of Swords
+  suit: swords
+  decks:
+    'rws': 
+      image: 'rws/rws-swords-08.png'
+    'thoth': 
+      image: 'thoth/thoth-swords-08.png'
+    'cbd': 
+      image: 'cbd/cbd-swords-08.jpg'
+    'mary': 
+      image: 'mary/mary-swords-08.png'
+    'brady': 
+      image: 'brady/brady-swords-08.png'
+'swords-09':
+  name: 9 of Swords
+  suit: swords
+  decks:
+    'rws': 
+      image: 'rws/rws-swords-09.png'
+    'thoth': 
+      image: 'thoth/thoth-swords-09.png'
+    'cbd': 
+      image: 'cbd/cbd-swords-09.jpg'
+    'mary': 
+      image: 'mary/mary-swords-09.png'
+    'brady': 
+      image: 'brady/brady-swords-09.png'
+'swords-10':
+  name: 10 of Swords
+  suit: swords
+  decks:
+    'rws': 
+      image: 'rws/rws-swords-10.png'
+    'thoth': 
+      image: 'thoth/thoth-swords-10.png'
+    'cbd': 
+      image: 'cbd/cbd-swords-10.jpg'
+    'mary': 
+      image: 'mary/mary-swords-10.png'
+    'brady': 
+      image: 'brady/brady-swords-10.png'
+'swords-11':
+  name: Page of Swords
+  suit: swords
+  decks:
+    'rws': 
+      image: 'rws/rws-swords-11.png'
+    'thoth': 
+      image: 'thoth/thoth-swords-11.png'
+    'cbd': 
+      image: 'cbd/cbd-swords-11.jpg'
+    'mary': 
+      image: 'mary/mary-swords-11.png'
+    'brady': 
+      image: 'brady/brady-swords-11.png'
+'swords-12':
+  name: Knight of Swords
+  suit: swords
+  decks:
+    'rws': 
+      image: 'rws/rws-swords-12.png'
+    'thoth': 
+      image: 'thoth/thoth-swords-12.png'
+    'cbd': 
+      image: 'cbd/cbd-swords-12.jpg'
+    'mary': 
+      image: 'mary/mary-swords-12.png'
+    'brady': 
+      image: 'brady/brady-swords-12.png'
+'swords-13':
+  name: Queen of Swords
+  suit: swords
+  decks:
+    'rws': 
+      image: 'rws/rws-swords-13.png'
+    'thoth': 
+      image: 'thoth/thoth-swords-13.png'
+    'cbd': 
+      image: 'cbd/cbd-swords-13.jpg'
+    'mary': 
+      image: 'mary/mary-swords-13.png'
+    'brady': 
+      image: 'brady/brady-swords-13.png'
+'swords-14':
+  name: King of Swords
+  suit: swords
+  decks:
+    'rws': 
+      image: 'rws/rws-swords-14.png'
+    'thoth': 
+      image: 'thoth/thoth-swords-14.png'
+    'cbd': 
+      image: 'cbd/cbd-swords-14.jpg'
+    'mary': 
+      image: 'mary/mary-swords-14.png'
+    'brady': 
+      image: 'brady/brady-swords-14.png'
+
+'wands-01':
+  name: Ace of Wands
+  suit: wands
+  decks:
+    'rws': 
+      image: 'rws/rws-wands-01.png'
+    'thoth': 
+      image: 'thoth/thoth-wands-01.png'
+    'cbd': 
+      image: 'cbd/cbd-wands-01.jpg'
+    'mary': 
+      image: 'mary/mary-wands-01.png'
+    'brady': 
+      image: 'brady/brady-wands-01.png'
+'wands-02':
+  name: 2 of Wands
+  suit: wands
+  decks:
+    'rws': 
+      image: 'rws/rws-wands-02.png'
+    'thoth': 
+      image: 'thoth/thoth-wands-02.png'
+    'cbd': 
+      image: 'cbd/cbd-wands-02.jpg'
+    'mary': 
+      image: 'mary/mary-wands-02.png'
+    'brady': 
+      image: 'brady/brady-wands-02.png'
+'wands-03':
+  name: 3 of Wands
+  suit: wands
+  decks:
+    'rws': 
+      image: 'rws/rws-wands-03.png'
+    'thoth': 
+      image: 'thoth/thoth-wands-03.png'
+    'cbd': 
+      image: 'cbd/cbd-wands-03.jpg'
+    'mary': 
+      image: 'mary/mary-wands-03.png'
+    'brady': 
+      image: 'brady/brady-wands-03.png'
+'wands-04':
+  name: 4 of Wands
+  suit: wands
+  decks:
+    'rws': 
+      image: 'rws/rws-wands-04.png'
+    'thoth': 
+      image: 'thoth/thoth-wands-04.png'
+    'cbd': 
+      image: 'cbd/cbd-wands-04.jpg'
+    'mary': 
+      image: 'mary/mary-wands-04.png'
+    'brady': 
+      image: 'brady/brady-wands-04.png'
+'wands-05':
+  name: 5 of Wands
+  suit: wands
+  decks:
+    'rws': 
+      image: 'rws/rws-wands-05.png'
+    'thoth': 
+      image: 'thoth/thoth-wands-05.png'
+    'cbd': 
+      image: 'cbd/cbd-wands-05.jpg'
+    'mary': 
+      image: 'mary/mary-wands-05.png'
+    'brady': 
+      image: 'brady/brady-wands-05.png'
+'wands-06':
+  name: 6 of Wands
+  suit: wands
+  decks:
+    'rws': 
+      image: 'rws/rws-wands-06.png'
+    'thoth': 
+      image: 'thoth/thoth-wands-06.png'
+    'cbd': 
+      image: 'cbd/cbd-wands-06.jpg'
+    'mary': 
+      image: 'mary/mary-wands-06.png'
+    'brady': 
+      image: 'brady/brady-wands-06.png'
+'wands-07':
+  name: 7 of Wands
+  suit: wands
+  decks:
+    'rws': 
+      image: 'rws/rws-wands-07.png'
+    'thoth': 
+      image: 'thoth/thoth-wands-07.png'
+    'cbd': 
+      image: 'cbd/cbd-wands-07.jpg'
+    'mary': 
+      image: 'mary/mary-wands-07.png'
+    'brady': 
+      image: 'brady/brady-wands-07.png'
+'wands-08':
+  name: 8 of Wands
+  suit: wands
+  decks:
+    'rws': 
+      image: 'rws/rws-wands-08.png'
+    'thoth': 
+      image: 'thoth/thoth-wands-08.png'
+    'cbd': 
+      image: 'cbd/cbd-wands-08.jpg'
+    'mary': 
+      image: 'mary/mary-wands-08.png'
+    'brady': 
+      image: 'brady/brady-wands-08.png'
+'wands-09':
+  name: 9 of Wands
+  suit: wands
+  decks:
+    'rws': 
+      image: 'rws/rws-wands-09.png'
+    'thoth': 
+      image: 'thoth/thoth-wands-09.png'
+    'cbd': 
+      image: 'cbd/cbd-wands-09.jpg'
+    'mary': 
+      image: 'mary/mary-wands-09.png'
+    'brady': 
+      image: 'brady/brady-wands-09.png'
+'wands-10':
+  name: 10 of Wands
+  suit: wands
+  decks:
+    'rws': 
+      image: 'rws/rws-wands-10.png'
+    'thoth': 
+      image: 'thoth/thoth-wands-10.png'
+    'cbd': 
+      image: 'cbd/cbd-wands-10.jpg'
+    'mary': 
+      image: 'mary/mary-wands-10.png'
+    'brady': 
+      image: 'brady/brady-wands-10.png'
+'wands-11':
+  name: Page of Wands
+  suit: wands
+  decks:
+    'rws': 
+      image: 'rws/rws-wands-11.png'
+    'thoth': 
+      image: 'thoth/thoth-wands-11.png'
+    'cbd': 
+      image: 'cbd/cbd-wands-11.jpg'
+    'mary': 
+      image: 'mary/mary-wands-11.png'
+    'brady': 
+      image: 'brady/brady-wands-11.png'
+'wands-12':
+  name: Knight of Wands
+  suit: wands
+  decks:
+    'rws': 
+      image: 'rws/rws-wands-12.png'
+    'thoth': 
+      image: 'thoth/thoth-wands-12.png'
+    'cbd': 
+      image: 'cbd/cbd-wands-12.jpg'
+    'mary': 
+      image: 'mary/mary-wands-12.png'
+    'brady': 
+      image: 'brady/brady-wands-12.png'
+'wands-13':
+  name: Queen of Wands
+  suit: wands
+  decks:
+    'rws': 
+      image: 'rws/rws-wands-13.png'
+    'thoth': 
+      image: 'thoth/thoth-wands-13.png'
+    'cbd': 
+      image: 'cbd/cbd-wands-13.jpg'
+    'mary': 
+      image: 'mary/mary-wands-13.png'
+    'brady': 
+      image: 'brady/brady-wands-13.png'
+'wands-14':
+  name: King of Wands
+  suit: wands
+  decks:
+    'rws': 
+      image: 'rws/rws-wands-14.png'
+    'thoth': 
+      image: 'thoth/thoth-wands-14.png'
+    'cbd': 
+      image: 'cbd/cbd-wands-14.jpg'
+    'mary': 
+      image: 'mary/mary-wands-14.png'
+    'brady': 
+      image: 'brady/brady-wands-14.png'

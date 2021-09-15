@@ -1,0 +1,51 @@
+extends layout
+
+block content
+  div.row
+    each card, index in cards
+      div.col-4(id='card'+(index+1)+'_rws', style='vertical-align: center;')
+        img.card(src='/images/'+card['decks']['rws']['image'], style='width: 100%;', id='img'+(index+1)+'_'+ card_tokens[index]+'_rws', 'card-token'=card_tokens[index])
+
+        div(id='info'+(index+1)+'_rws', class='card-info', 'data-next'='thoth', data-next-img='/images/'+ card['decks']['thoth']['image'])
+
+        div(id='info'+(index+1)+'_thoth', class='card-info', 'data-next'='cbd', data-next-img='/images/'+ card['decks']['cbd']['image'])
+
+        div(id='info'+(index+1)+'_cbd', class='card-info',   'data-next'='mary', data-next-img='/images/'+ card['decks']['mary']['image'])
+
+        div(id='info'+(index+1)+'_mary', class='card-info',  'data-next'='brady', data-next-img='/images/'+ card['decks']['brady']['image'])
+
+        div(id='info'+(index+1)+'_brady', class='card-info', 'data-next'='rws', data-next-img='/images/'+ card['decks']['rws']['image'])
+
+block scripts
+  script(type='text/javascript').
+    $( document ).ready(function(){
+
+      $('.card').click(function() {
+        var card_data = this.id.split('_')
+        var card_num  = card_data[0]
+        var card_item = card_data[1]
+        var card_deck = card_data[2]
+
+        if (card_num == 'img1') {
+          var next_deck = $('#info1'+'_'+card_deck).attr('data-next')
+          var next_img  = $('#info1'+'_'+card_deck).attr('data-next-img')
+          $('#img1_'+card_item+'_'+card_deck).attr('src', next_img)
+          $('#img1_'+card_item+'_'+card_deck).prop('id', 'img1_'+card_item+'_'+next_deck)
+
+        } else if (card_num == 'img2') {
+          var next_deck = $('#info2'+'_'+card_deck).attr('data-next')
+          var next_img  = $('#info2'+'_'+card_deck).attr('data-next-img')
+          $('#img2_'+card_item+'_'+card_deck).attr('src', next_img)
+          $('#img2_'+card_item+'_'+card_deck).prop('id', 'img2_'+card_item+'_'+next_deck)
+
+        } else if (card_num == 'img3') {
+          var next_deck = $('#info3'+'_'+card_deck).attr('data-next')
+          var next_img  = $('#info3'+'_'+card_deck).attr('data-next-img')
+          $('#img3_'+card_item+'_'+card_deck).attr('src', next_img)
+          $('#img3_'+card_item+'_'+card_deck).prop('id', 'img3_'+card_item+'_'+next_deck)
+
+        } else {
+          window.alert(card_num)
+        }
+      })
+    });
