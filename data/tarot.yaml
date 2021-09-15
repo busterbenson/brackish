@@ -127,11 +127,11 @@
     'rws': 
       image: 'rws/rws-arcana-08.png'
     'thoth': 
-      image: 'thoth/thoth-arcana-08.png'
+      image: 'thoth/thoth-arcana-11.png'
     'cbd': 
-      image: 'cbd/cbd-arcana-08.jpg'
+      image: 'cbd/cbd-arcana-11.jpg'
     'mary': 
-      image: 'mary/mary-arcana-08.png'
+      image: 'mary/mary-arcana-11.png'
     'brady': 
       image: 'brady/brady-arcana-08.png'
 'major-09':
@@ -172,11 +172,11 @@
     'rws': 
       image: 'rws/rws-arcana-11.png'
     'thoth': 
-      image: 'thoth/thoth-arcana-11.png'
+      image: 'thoth/thoth-arcana-08.png'
     'cbd': 
-      image: 'cbd/cbd-arcana-11.jpg'
+      image: 'cbd/cbd-arcana-08.jpg'
     'mary': 
-      image: 'mary/mary-arcana-11.png'
+      image: 'mary/mary-arcana-08.png'
     'brady': 
       image: 'brady/brady-arcana-11.png'
 'major-12':

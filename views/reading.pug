@@ -1,0 +1,33 @@
+extends layout
+
+block content
+  div.row
+    each card, index in cards
+      - var order = (index*2)+1
+      div(class='mt-4 col-12 col-md-4 order-'+order+' order-md-'+(index+1))
+        div.back(id='back'+(index+1))
+          if index == 0
+            p 
+              | ❤️ <strong>Personal:</strong> How I felt <strong>emotionally</strong>.
+          else if index == 1
+            p 
+              | 👋 <strong>Social:</strong> How my <strong>relationships</strong> felt.
+          else if index == 2
+            p 
+              | 🌎 <strong>External:</strong> How <strong>the world</strong> felt.
+
+    each card, index in cards
+      - var order = (index*2)+2
+      - console.log(card_decks[index])
+      div(class='col-12 col-md-4 order-'+order+' order-md-'+(index+4), id='card'+(index+1), style='vertical-align: center;')
+        img.card(id='img'+(index+1), style='width: 100%; max-height: 90%;', src='https://brackish.s3.us-west-1.amazonaws.com/'+card['decks'][card_decks[index]]['image'])
+
+        div.small(class='card-name')
+          div(id='cname'+(index+1), style='display: inline;')= card['name'] + ' from '
+          div(id='dname'+(index+1), style='display: inline;') 
+            a(href=decks[card_decks[index]]['link'], target='_blank')= decks[card_decks[index]]['nickname']
+
+
+  div.row
+      div.col-12.small(style='margin-top: 50px; text-align: center;')
+        a(href='/', class='btn btn-outline-dark', style='text-align: center') Draw 3 new cards
