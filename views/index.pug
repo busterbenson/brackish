@@ -5,6 +5,9 @@ block content
     each card, index in cards
       div.col-4(id='card'+(index+1)+'_rws', style='vertical-align: center;')
         img.card(src='/images/'+card['decks']['rws']['image'], style='width: 100%;', id='img'+(index+1)+'_'+ card_tokens[index]+'_rws', 'card-token'=card_tokens[index])
+        div.small(id='name'+(index+1)+'_rws')
+          = card['name']
+          | from RWS
 
         div(id='info'+(index+1)+'_rws', class='card-info', 'data-next'='thoth', data-next-img='/images/'+ card['decks']['thoth']['image'])
 
