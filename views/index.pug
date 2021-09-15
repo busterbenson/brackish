@@ -4,21 +4,21 @@ block content
   div.row
     each card, index in cards
       div.col-4(id='card'+(index+1)+'_rws', style='vertical-align: center;')
-        img.card(src='/images/'+card['decks']['rws']['image'], style='width: 100%;', id='img'+(index+1)+'_'+ card_tokens[index]+'_rws', 'card-token'=card_tokens[index])
+        img.card(src='https://brackish.s3.us-west-1.amazonaws.com/'+card['decks']['rws']['image'], style='width: 100%;', id='img'+(index+1)+'_'+ card_tokens[index]+'_rws', 'card-token'=card_tokens[index])
         div.small(class='card-name')
           span= card['name'] + ' from '
           div(id='name'+(index+1), style='display: inline;') 
             a(href=decks['rws']['link'])= decks['rws']['nickname']
 
-        div(id='info'+(index+1)+'_rws', class='card-info', 'data-next'='thoth', data-next-img='/images/'+ card['decks']['thoth']['image'], 'data-deck'=decks['rws']['nickname'], 'data-deck-link'=decks['rws']['link'])
+        div(id='info'+(index+1)+'_rws', class='card-info', 'data-next'='thoth', data-next-img='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks']['thoth']['image'], 'data-deck'=decks['rws']['nickname'], 'data-deck-link'=decks['rws']['link'])
 
-        div(id='info'+(index+1)+'_thoth', class='card-info', 'data-next'='cbd', data-next-img='/images/'+ card['decks']['cbd']['image'], 'data-deck'=decks['thoth']['nickname'], 'data-deck-link'=decks['thoth']['link'])
+        div(id='info'+(index+1)+'_thoth', class='card-info', 'data-next'='cbd', data-next-img='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks']['cbd']['image'], 'data-deck'=decks['thoth']['nickname'], 'data-deck-link'=decks['thoth']['link'])
 
-        div(id='info'+(index+1)+'_cbd', class='card-info',   'data-next'='mary', data-next-img='/images/'+ card['decks']['mary']['image'], 'data-deck'=decks['cbd']['nickname'], 'data-deck-link'=decks['cbd']['link'])
+        div(id='info'+(index+1)+'_cbd', class='card-info',   'data-next'='mary', data-next-img='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks']['mary']['image'], 'data-deck'=decks['cbd']['nickname'], 'data-deck-link'=decks['cbd']['link'])
 
-        div(id='info'+(index+1)+'_mary', class='card-info',  'data-next'='brady', data-next-img='/images/'+ card['decks']['brady']['image'], 'data-deck'=decks['mary']['nickname'], 'data-deck-link'=decks['mary']['link'])
+        div(id='info'+(index+1)+'_mary', class='card-info',  'data-next'='brady', data-next-img='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks']['brady']['image'], 'data-deck'=decks['mary']['nickname'], 'data-deck-link'=decks['mary']['link'])
 
-        div(id='info'+(index+1)+'_brady', class='card-info', 'data-next'='rws', data-next-img='/images/'+ card['decks']['rws']['image'], 'data-deck'=decks['brady']['nickname'], 'data-deck-link'=decks['brady']['link'])
+        div(id='info'+(index+1)+'_brady', class='card-info', 'data-next'='rws', data-next-img='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks']['rws']['image'], 'data-deck'=decks['brady']['nickname'], 'data-deck-link'=decks['brady']['link'])
 
 block style
   style(type='text/css').
