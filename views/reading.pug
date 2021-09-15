@@ -8,13 +8,13 @@ block content
         div.back(id='back'+(index+1))
           if index == 0
             p 
-              | ❤️ <strong>Personal:</strong> How I felt <strong>emotionally</strong>.
+              | ❤️ <strong>Personal:</strong> How I feel.
           else if index == 1
             p 
-              | 👋 <strong>Social:</strong> How my <strong>relationships</strong> felt.
+              | 👋 <strong>Social:</strong> How my relationships feel.
           else if index == 2
             p 
-              | 🌎 <strong>External:</strong> How <strong>the world</strong> felt.
+              | 🌎 <strong>External:</strong> How the world feels.
 
     each card, index in cards
       - var order = (index*2)+2
@@ -29,5 +29,17 @@ block content
 
 
   div.row
-      div.col-12.small(style='margin-top: 50px; text-align: center;')
+      div#button.col-12.small(style='margin-top: 50px; text-align: center;')
         a(href='/', class='btn btn-outline-dark', style='text-align: center') Draw 3 new cards
+
+block style
+  style(type='text/css').
+    .card-name {
+      text-align: center; 
+      padding: 8px; 
+      color: #666;
+    }
+    .card-name a {
+      color: #666;
+      text-decoration: underline;
+    }
