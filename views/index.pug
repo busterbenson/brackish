@@ -1,6 +1,10 @@
 extends layout
 
 block content
+  each k,v in decks
+    div(id='deck_'+k, 'data-name'=v['name'], 'data-link'=v['link'], 'data-nickname'=v['nickname'])
+
+
   - var deck_for_card = []
   - var counter = 0
   each card in tarot
@@ -119,6 +123,30 @@ block scripts
             // Update the name
             $('#cname'+card_num).html($('#random'+new_index).attr('data-card-name')+' from ')
             $('#dname'+card_num).html("<a href='"+$('#random'+new_index).attr('data-deck-link')+"'>"+$('#random'+new_index).attr('data-deck-nickname')+"</a>")
+
+            // Update the related images
+            // div(id='info'+(index+1)+'_rws', class='card-info', 'data-next'='thoth', data-next-img='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks']['thoth']['image'], 'data-deck-nickname'=decks['rws']['nickname'], 'data-deck-link'=decks['rws']['link'])
+
+            var decks = ['rws','thoth','cbd','mary','brady']
+            var next_deck = ['thoth','cbd','mary','brady','rws']
+            for (let x = 1; x < 4; x++) {
+              for (let y = 1; y <= decks.length; y++) {
+                var d = decks[y]
+                // Next deck
+                $('#info'+y+'_'+d).attr('data-next', next_deck[x])
+                $('#info'+y+'_'+d).attr('data-deck-nickname', $('#deck_'+next_deck[x]).attr('data-nickname'))
+                $('#info'+y+'_'+d).attr('data-deck-link', $('#deck_'+next_deck[x]).attr('data-link'))
+                // Next image
+                if ($('#random'+(new_index+1))) {
+                  $('#info'+y+'_'+d).attr('data-next-img', $('#random'+(new_index+1)).attr('data-img'))
+                } else {
+                  $('#info'+y+'_'+d).attr('data-next-img', $('#random1').attr('data-img'))
+
+                }
+
+              }
+            }
+
 
             card_change = true
           }
