@@ -10,9 +10,17 @@ block content
   each card in tarot
     - var random_num = Math.round(Math.random() * 4)
     - var random_deck_token = deck_tokens[random_num]
+    - var next_deck_token = null
+    if random_deck_token == 4
+      - next_deck_token = deck_tokens[1]
+    else
+      - next_deck_token = deck_tokens[random_deck_token+1]
+    end
+    console.log('next: ')
+    console.log(next_deck_token)
     - deck_for_card.push(random_deck_token)
 
-    div(id='random'+(counter+1), class='random-card', 'data-deck-token'=random_deck_token, 'data-card-token'=all_cards[counter], 'data-card-name'=tarot[all_cards[counter]]['name'], 'data-img'='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks'][random_deck_token]['image'], 'data-deck'=decks[random_deck_token]['nickname'], 'data-deck-link'=decks[random_deck_token]['link'], 'data-deck-nickname'=decks[random_deck_token]['nickname'])
+    div(id='random'+(counter+1), class='random-card', 'data-deck-token'=random_deck_token, 'data-card-token'=all_cards[counter], 'data-card-name'=tarot[all_cards[counter]]['name'], 'data-img'='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks'][random_deck_token]['image'], 'data-img-rws'='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks']['rws']['image'],'data-deck'=decks[random_deck_token]['nickname'], 'data-img-thoth'='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks']['thoth']['image'], 'data-img-cbd'='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks']['cbd']['image'], 'data-img-mary'='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks']['mary']['image'], 'data-img-brady'='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks']['brady']['image'], 'data-deck-link'=decks[random_deck_token]['link'], 'data-deck-nickname'=decks[random_deck_token]['nickname'], 'data-next-img'='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks'][random_deck_token]['image'])
 
     - counter += 1
 
@@ -128,23 +136,18 @@ block scripts
             // div(id='info'+(index+1)+'_rws', class='card-info', 'data-next'='thoth', data-next-img='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks']['thoth']['image'], 'data-deck-nickname'=decks['rws']['nickname'], 'data-deck-link'=decks['rws']['link'])
 
             var decks = ['rws','thoth','cbd','mary','brady']
-            var next_deck = ['thoth','cbd','mary','brady','rws']
-            for (let x = 1; x < 4; x++) {
-              for (let y = 1; y <= decks.length; y++) {
-                var d = decks[y]
-                // Next deck
-                $('#info'+y+'_'+d).attr('data-next', next_deck[x])
-                $('#info'+y+'_'+d).attr('data-deck-nickname', $('#deck_'+next_deck[x]).attr('data-nickname'))
-                $('#info'+y+'_'+d).attr('data-deck-link', $('#deck_'+next_deck[x]).attr('data-link'))
-                // Next image
-                if ($('#random'+(new_index+1))) {
-                  $('#info'+y+'_'+d).attr('data-next-img', $('#random'+(new_index+1)).attr('data-img'))
-                } else {
-                  $('#info'+y+'_'+d).attr('data-next-img', $('#random1').attr('data-img'))
+            var next_decks = ['thoth','cbd','mary','brady','rws']
+            for (let x = 0; x < decks.length; x++) {
+              var this_deck = decks[x]
+              var next_deck = next_decks[x]
+              console.log('next: '+next_decks[x])
+              console.log('#random'+new_index)
+              console.log('data-img-'+next_deck)
+              console.log($('#random'+new_index).attr('data-img-'+next_deck))
 
-                }
-
-              }
+              $('#info'+card_num+'_'+this_deck).attr('data-next-img', $('#random'+new_index).attr('data-img-'+next_deck))
+              $('#info'+card_num+'_'+this_deck).attr('data-deck-nickname', $('#deck_'+next_deck).attr('data-nickname'))
+              $('#info'+card_num+'_'+this_deck).attr('data-deck-link', $('#deck_'+next_deck).attr('data-link'))
             }
 
 
