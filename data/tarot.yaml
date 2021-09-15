@@ -2,6 +2,7 @@
 'major-00':
   name: The Fool
   suit: major
+  index: 0
   decks: 
     'rws': 
       image: 'rws/rws-arcana-00.png'
@@ -16,6 +17,7 @@
 'major-01':
   name: The Magician
   suit: major
+  index: 1
   decks: 
     'rws': 
       image: 'rws/rws-arcana-01.png'
@@ -30,6 +32,7 @@
 'major-02':
   name: The Priestess
   suit: major
+  index: 2
   decks: 
     'rws': 
       image: 'rws/rws-arcana-02.png'
@@ -43,7 +46,8 @@
       image: 'brady/brady-arcana-02.png'
 'major-03':
   name: The Empress
-  suit: major
+  suit: major  
+  index: 3
   decks: 
     'rws': 
       image: 'rws/rws-arcana-03.png'
@@ -58,6 +62,7 @@
 'major-04':
   name: The Emperor
   suit: major
+  index: 4
   decks: 
     'rws': 
       image: 'rws/rws-arcana-04.png'
@@ -72,6 +77,7 @@
 'major-05':
   name: The Heirophant
   suit: major
+  index: 5
   decks: 
     'rws': 
       image: 'rws/rws-arcana-05.png'
@@ -86,6 +92,7 @@
 'major-06':
   name: The Lovers
   suit: major
+  index: 6
   decks: 
     'rws': 
       image: 'rws/rws-arcana-06.png'
@@ -100,6 +107,7 @@
 'major-07':
   name: The Chariot
   suit: major
+  index: 7
   decks: 
     'rws': 
       image: 'rws/rws-arcana-07.png'
@@ -114,6 +122,7 @@
 'major-08':
   name: Strength
   suit: major
+  index: 8
   decks: 
     'rws': 
       image: 'rws/rws-arcana-08.png'
@@ -128,6 +137,7 @@
 'major-09':
   name: The Hermit
   suit: major
+  index: 9
   decks: 
     'rws': 
       image: 'rws/rws-arcana-09.png'
@@ -142,6 +152,7 @@
 'major-10':
   name: The Wheel of Fortune
   suit: major
+  index: 10
   decks: 
     'rws': 
       image: 'rws/rws-arcana-10.png'
@@ -156,6 +167,7 @@
 'major-11':
   name: Justice
   suit: major
+  index: 11
   decks: 
     'rws': 
       image: 'rws/rws-arcana-11.png'
@@ -170,6 +182,7 @@
 'major-12':
   name: The Hanged Man
   suit: major
+  index: 12
   decks: 
     'rws': 
       image: 'rws/rws-arcana-12.png'
@@ -184,6 +197,7 @@
 'major-13':
   name: Death
   suit: major
+  index: 13
   decks: 
     'rws': 
       image: 'rws/rws-arcana-13.png'
@@ -198,6 +212,7 @@
 'major-14':
   name: Temperance
   suit: major
+  index: 14
   decks: 
     'rws': 
       image: 'rws/rws-arcana-14.png'
@@ -212,6 +227,7 @@
 'major-15':
   name: The Devil
   suit: major
+  index: 15
   decks: 
     'rws': 
       image: 'rws/rws-arcana-15.png'
@@ -226,6 +242,7 @@
 'major-16':
   name: The Tower
   suit: major
+  index: 16
   decks: 
     'rws': 
       image: 'rws/rws-arcana-16.png'
@@ -240,6 +257,7 @@
 'major-17':
   name: The Star
   suit: major
+  index: 17
   decks: 
     'rws': 
       image: 'rws/rws-arcana-17.png'
@@ -254,6 +272,7 @@
 'major-18':
   name: The Moon
   suit: major
+  index: 18
   decks: 
     'rws': 
       image: 'rws/rws-arcana-18.png'
@@ -268,6 +287,7 @@
 'major-19':
   name: The Sun
   suit: major
+  index: 19
   decks: 
     'rws': 
       image: 'rws/rws-arcana-19.png'
@@ -282,6 +302,7 @@
 'major-20':
   name: Judgment
   suit: major
+  index: 20
   decks: 
     'rws': 
       image: 'rws/rws-arcana-20.png'
@@ -296,6 +317,7 @@
 'major-21':
   name: The World
   suit: major
+  index: 21
   decks: 
     'rws': 
       image: 'rws/rws-arcana-21.png'
@@ -311,6 +333,7 @@
 'cups-01':
   name: Ace of Cups
   suit: cups
+  index: 22
   decks:
     'rws': 
       image: 'rws/rws-cups-01.png'
@@ -325,6 +348,7 @@
 'cups-02':
   name: 2 of Cups
   suit: cups
+  index: 23
   decks:
     'rws': 
       image: 'rws/rws-cups-02.png'
@@ -339,6 +363,7 @@
 'cups-03':
   name: 3 of Cups
   suit: cups
+  index: 24
   decks:
     'rws': 
       image: 'rws/rws-cups-03.png'
@@ -353,6 +378,7 @@
 'cups-04':
   name: 4 of Cups
   suit: cups
+  index: 25
   decks:
     'rws': 
       image: 'rws/rws-cups-04.png'
@@ -367,6 +393,7 @@
 'cups-05':
   name: 5 of Cups
   suit: cups
+  index: 26
   decks:
     'rws': 
       image: 'rws/rws-cups-05.png'
@@ -381,6 +408,7 @@
 'cups-06':
   name: 6 of Cups
   suit: cups
+  index: 27
   decks:
     'rws': 
       image: 'rws/rws-cups-06.png'
@@ -395,6 +423,7 @@
 'cups-07':
   name: 7 of Cups
   suit: cups
+  index: 28
   decks:
     'rws': 
       image: 'rws/rws-cups-07.png'
@@ -409,6 +438,7 @@
 'cups-08':
   name: 8 of Cups
   suit: cups
+  index: 29
   decks:
     'rws': 
       image: 'rws/rws-cups-08.png'
@@ -423,6 +453,7 @@
 'cups-09':
   name: 9 of Cups
   suit: cups
+  index: 30
   decks:
     'rws': 
       image: 'rws/rws-cups-09.png'
@@ -437,6 +468,7 @@
 'cups-10':
   name: 10 of Cups
   suit: cups
+  index: 31
   decks:
     'rws': 
       image: 'rws/rws-cups-10.png'
@@ -451,6 +483,7 @@
 'cups-11':
   name: Page of Cups
   suit: cups
+  index: 32
   decks:
     'rws': 
       image: 'rws/rws-cups-11.png'
@@ -465,6 +498,7 @@
 'cups-12':
   name: Knight of Cups
   suit: cups
+  index: 33
   decks:
     'rws': 
       image: 'rws/rws-cups-12.png'
@@ -479,6 +513,7 @@
 'cups-13':
   name: Queen of Cups
   suit: cups
+  index: 34
   decks:
     'rws': 
       image: 'rws/rws-cups-13.png'
@@ -493,6 +528,7 @@
 'cups-14':
   name: King of Cups
   suit: cups
+  index: 35
   decks:
     'rws': 
       image: 'rws/rws-cups-14.png'
@@ -508,6 +544,7 @@
 'coins-01':
   name: Ace of Coins
   suit: coins
+  index: 36
   decks:
     'rws': 
       image: 'rws/rws-coins-01.png'
@@ -522,6 +559,7 @@
 'coins-02':
   name: 2 of Coins
   suit: coins
+  index: 37
   decks:
     'rws': 
       image: 'rws/rws-coins-02.png'
@@ -536,6 +574,7 @@
 'coins-03':
   name: 3 of Coins
   suit: coins
+  index: 38
   decks:
     'rws': 
       image: 'rws/rws-coins-03.png'
@@ -550,6 +589,7 @@
 'coins-04':
   name: 4 of Coins
   suit: coins
+  index: 39
   decks:
     'rws': 
       image: 'rws/rws-coins-04.png'
@@ -564,6 +604,7 @@
 'coins-05':
   name: 5 of Coins
   suit: coins
+  index: 40
   decks:
     'rws': 
       image: 'rws/rws-coins-05.png'
@@ -578,6 +619,7 @@
 'coins-06':
   name: 6 of Coins
   suit: coins
+  index: 41
   decks:
     'rws': 
       image: 'rws/rws-coins-06.png'
@@ -592,6 +634,7 @@
 'coins-07':
   name: 7 of Coins
   suit: coins
+  index: 42
   decks:
     'rws': 
       image: 'rws/rws-coins-07.png'
@@ -606,6 +649,7 @@
 'coins-08':
   name: 8 of Coins
   suit: coins
+  index: 43
   decks:
     'rws': 
       image: 'rws/rws-coins-08.png'
@@ -620,6 +664,7 @@
 'coins-09':
   name: 9 of Coins
   suit: coins
+  index: 44
   decks:
     'rws': 
       image: 'rws/rws-coins-09.png'
@@ -634,6 +679,7 @@
 'coins-10':
   name: 10 of Coins
   suit: coins
+  index: 45
   decks:
     'rws': 
       image: 'rws/rws-coins-10.png'
@@ -648,6 +694,7 @@
 'coins-11':
   name: Page of Coins
   suit: coins
+  index: 46
   decks:
     'rws': 
       image: 'rws/rws-coins-11.png'
@@ -662,6 +709,7 @@
 'coins-12':
   name: Knight of Coins
   suit: coins
+  index: 47
   decks:
     'rws': 
       image: 'rws/rws-coins-12.png'
@@ -676,6 +724,7 @@
 'coins-13':
   name: Queen of Coins
   suit: coins
+  index: 48
   decks:
     'rws': 
       image: 'rws/rws-coins-13.png'
@@ -690,6 +739,7 @@
 'coins-14':
   name: King of Coins
   suit: coins
+  index: 49
   decks:
     'rws': 
       image: 'rws/rws-coins-14.png'
@@ -705,6 +755,7 @@
 'swords-01':
   name: Ace of Swords
   suit: swords
+  index: 50
   decks:
     'rws': 
       image: 'rws/rws-swords-01.png'
@@ -719,6 +770,7 @@
 'swords-02':
   name: 2 of Swords
   suit: swords
+  index: 51
   decks:
     'rws': 
       image: 'rws/rws-swords-02.png'
@@ -733,6 +785,7 @@
 'swords-03':
   name: 3 of Swords
   suit: swords
+  index: 52
   decks:
     'rws': 
       image: 'rws/rws-swords-03.png'
@@ -747,6 +800,7 @@
 'swords-04':
   name: 4 of Swords
   suit: swords
+  index: 53
   decks:
     'rws': 
       image: 'rws/rws-swords-04.png'
@@ -761,6 +815,7 @@
 'swords-05':
   name: 5 of Swords
   suit: swords
+  index: 54
   decks:
     'rws': 
       image: 'rws/rws-swords-05.png'
@@ -775,6 +830,7 @@
 'swords-06':
   name: 6 of Swords
   suit: swords
+  index: 55
   decks:
     'rws': 
       image: 'rws/rws-swords-06.png'
@@ -789,6 +845,7 @@
 'swords-07':
   name: 7 of Swords
   suit: swords
+  index: 56
   decks:
     'rws': 
       image: 'rws/rws-swords-07.png'
@@ -803,6 +860,7 @@
 'swords-08':
   name: 8 of Swords
   suit: swords
+  index: 57
   decks:
     'rws': 
       image: 'rws/rws-swords-08.png'
@@ -817,6 +875,7 @@
 'swords-09':
   name: 9 of Swords
   suit: swords
+  index: 58
   decks:
     'rws': 
       image: 'rws/rws-swords-09.png'
@@ -831,6 +890,7 @@
 'swords-10':
   name: 10 of Swords
   suit: swords
+  index: 59
   decks:
     'rws': 
       image: 'rws/rws-swords-10.png'
@@ -845,6 +905,7 @@
 'swords-11':
   name: Page of Swords
   suit: swords
+  index: 60
   decks:
     'rws': 
       image: 'rws/rws-swords-11.png'
@@ -859,6 +920,7 @@
 'swords-12':
   name: Knight of Swords
   suit: swords
+  index: 61
   decks:
     'rws': 
       image: 'rws/rws-swords-12.png'
@@ -873,6 +935,7 @@
 'swords-13':
   name: Queen of Swords
   suit: swords
+  index: 62
   decks:
     'rws': 
       image: 'rws/rws-swords-13.png'
@@ -887,6 +950,7 @@
 'swords-14':
   name: King of Swords
   suit: swords
+  index: 63
   decks:
     'rws': 
       image: 'rws/rws-swords-14.png'
@@ -902,6 +966,7 @@
 'wands-01':
   name: Ace of Wands
   suit: wands
+  index: 64
   decks:
     'rws': 
       image: 'rws/rws-wands-01.png'
@@ -916,6 +981,7 @@
 'wands-02':
   name: 2 of Wands
   suit: wands
+  index: 65
   decks:
     'rws': 
       image: 'rws/rws-wands-02.png'
@@ -930,6 +996,7 @@
 'wands-03':
   name: 3 of Wands
   suit: wands
+  index: 66
   decks:
     'rws': 
       image: 'rws/rws-wands-03.png'
@@ -944,6 +1011,7 @@
 'wands-04':
   name: 4 of Wands
   suit: wands
+  index: 67
   decks:
     'rws': 
       image: 'rws/rws-wands-04.png'
@@ -958,6 +1026,7 @@
 'wands-05':
   name: 5 of Wands
   suit: wands
+  index: 68
   decks:
     'rws': 
       image: 'rws/rws-wands-05.png'
@@ -972,6 +1041,7 @@
 'wands-06':
   name: 6 of Wands
   suit: wands
+  index: 69
   decks:
     'rws': 
       image: 'rws/rws-wands-06.png'
@@ -986,6 +1056,7 @@
 'wands-07':
   name: 7 of Wands
   suit: wands
+  index: 70
   decks:
     'rws': 
       image: 'rws/rws-wands-07.png'
@@ -1000,6 +1071,7 @@
 'wands-08':
   name: 8 of Wands
   suit: wands
+  index: 71
   decks:
     'rws': 
       image: 'rws/rws-wands-08.png'
@@ -1014,6 +1086,7 @@
 'wands-09':
   name: 9 of Wands
   suit: wands
+  index: 72
   decks:
     'rws': 
       image: 'rws/rws-wands-09.png'
@@ -1028,6 +1101,7 @@
 'wands-10':
   name: 10 of Wands
   suit: wands
+  index: 73
   decks:
     'rws': 
       image: 'rws/rws-wands-10.png'
@@ -1042,6 +1116,7 @@
 'wands-11':
   name: Page of Wands
   suit: wands
+  index: 74
   decks:
     'rws': 
       image: 'rws/rws-wands-11.png'
@@ -1056,6 +1131,7 @@
 'wands-12':
   name: Knight of Wands
   suit: wands
+  index: 75
   decks:
     'rws': 
       image: 'rws/rws-wands-12.png'
@@ -1070,6 +1146,7 @@
 'wands-13':
   name: Queen of Wands
   suit: wands
+  index: 76
   decks:
     'rws': 
       image: 'rws/rws-wands-13.png'
@@ -1084,6 +1161,7 @@
 'wands-14':
   name: King of Wands
   suit: wands
+  index: 77
   decks:
     'rws': 
       image: 'rws/rws-wands-14.png'

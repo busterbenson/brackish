@@ -4,12 +4,12 @@ block content
   each k,v in decks
     div(id='deck_'+k, 'data-name'=v['name'], 'data-link'=v['link'], 'data-nickname'=v['nickname'])
 
-
   - var deck_for_card = []
   - var counter = 0
   each card in tarot
     - var random_num = Math.round(Math.random() * 4)
     - var random_deck_token = deck_tokens[random_num]
+    
     - var next_deck_token = null
     if random_deck_token == 4
       - next_deck_token = deck_tokens[1]
@@ -45,12 +45,12 @@ block content
       div(class='col-12 col-md-4 order-'+order+' order-md-'+(index+4), id='card'+(index+1), style='vertical-align: center;')
         - var deck = deck_for_card[card_index[index]]
 
-        img.card(id='img'+(index+1), style='width: 100%;', src='https://brackish.s3.us-west-1.amazonaws.com/'+card['decks'][deck]['image'], 'data-card-token'=card_tokens[index], 'data-deck-token'=deck)
+        img.card(id='img'+(index+1), style='width: 100%; max-height: 90%;', src='https://brackish.s3.us-west-1.amazonaws.com/'+card['decks'][deck]['image'], 'data-card-token'=card_tokens[index], 'data-deck-token'=deck)
         
         div.small(class='card-name')
           div(id='cname'+(index+1), style='display: inline;')= card['name'] + ' from '
           div(id='dname'+(index+1), style='display: inline;') 
-            a(href=decks[deck]['link'])= decks[deck]['nickname']
+            a(href=decks[deck]['link'], target='_blank')= decks[deck]['nickname']
 
         div(id='info'+(index+1)+'_rws', class='card-info', 'data-next'='thoth', data-next-img='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks']['thoth']['image'], 'data-deck-nickname'=decks['rws']['nickname'], 'data-deck-link'=decks['rws']['link'])
 
@@ -63,6 +63,10 @@ block content
         div(id='info'+(index+1)+'_brady', class='card-info', 'data-next'='rws', data-next-img='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks']['rws']['image'], 'data-deck-nickname'=decks['brady']['nickname'], 'data-deck-link'=decks['brady']['link'])
 
 
+  div.row
+    div.col-12.small(style='margin-top: 50px; text-align: center;')
+      div#link
+
 block style
   style(type='text/css').
     .card-name {
@@ -70,7 +74,7 @@ block style
       padding: 4px; 
       color: #666;
     }
-    .card-name a {
+    .card-name a, #link a {
       color: #666;
       text-decoration: underline;
     }
@@ -79,6 +83,16 @@ block style
 block scripts
   script(type='text/javascript').
     $( document ).ready(function(){
+
+      function link_to_this_page() {
+        var link_string = window.location.origin +'/reading/' +
+                          $('#img1').attr('data-deck-token')+'_'+$('#img1').attr('data-card-token') +'/'+
+                          $('#img2').attr('data-deck-token')+'_'+$('#img2').attr('data-card-token') +'/'+
+                          $('#img3').attr('data-deck-token')+'_'+$('#img3').attr('data-card-token');
+
+        $('#link').html('Link to this page: <a href="'+link_string+'">'+link_string+'</a>')
+      }
+      link_to_this_page();
 
       // Reload a card panel with a different deck of the same card
       $('.card').click(function() {
@@ -103,6 +117,9 @@ block scripts
 
         // Update the name
         $('#dname'+card_num).html("<a target='_blank' href='"+$('#info'+card_num+'_'+next_deck).attr('data-deck-link')+"'>"+$('#info'+card_num+'_'+next_deck).attr('data-deck-nickname')+"</a>")
+
+        // Update link to this page
+        link_to_this_page();
       });
 
       // Reload a card panel with a new card
@@ -149,6 +166,9 @@ block scripts
             card_change = true
           }
         }
+
+        // Update link to this page
+        link_to_this_page();
 
         e.preventDefault();
         return false
