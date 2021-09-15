@@ -16,8 +16,6 @@ block content
     else
       - next_deck_token = deck_tokens[random_deck_token+1]
     end
-    console.log('next: ')
-    console.log(next_deck_token)
     - deck_for_card.push(random_deck_token)
 
     div(id='random'+(counter+1), class='random-card', 'data-deck-token'=random_deck_token, 'data-card-token'=all_cards[counter], 'data-card-name'=tarot[all_cards[counter]]['name'], 'data-img'='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks'][random_deck_token]['image'], 'data-img-rws'='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks']['rws']['image'],'data-deck'=decks[random_deck_token]['nickname'], 'data-img-thoth'='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks']['thoth']['image'], 'data-img-cbd'='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks']['cbd']['image'], 'data-img-mary'='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks']['mary']['image'], 'data-img-brady'='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks']['brady']['image'], 'data-deck-link'=decks[random_deck_token]['link'], 'data-deck-nickname'=decks[random_deck_token]['nickname'], 'data-next-img'='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks'][random_deck_token]['image'])
@@ -26,7 +24,8 @@ block content
 
   div.row
     each card, index in cards
-      div.col-4
+      - var order = (index*2)+1
+      div(class='mt-4 col-12 col-md-4 order-'+order+' order-md-'+(index+1))
         div.back(id='back'+(index+1))
           if index == 0
             p 
@@ -41,9 +40,9 @@ block content
               | 🌎 <strong>External:</strong> <a href='' class='reloadcard' id='reloadcard_3'>Flip through cards</a>  
               | until a card matches how <strong>the world</strong> feels right now.
 
-  div.row
     each card, index in cards
-      div.col-4(id='card'+(index+1), style='vertical-align: center;')
+      - var order = (index*2)+2
+      div(class='col-12 col-md-4 order-'+order+' order-md-'+(index+4), id='card'+(index+1), style='vertical-align: center;')
         - var deck = deck_for_card[card_index[index]]
 
         img.card(id='img'+(index+1), style='width: 100%;', src='https://brackish.s3.us-west-1.amazonaws.com/'+card['decks'][deck]['image'], 'data-card-token'=card_tokens[index], 'data-deck-token'=deck)
@@ -140,11 +139,7 @@ block scripts
             for (let x = 0; x < decks.length; x++) {
               var this_deck = decks[x]
               var next_deck = next_decks[x]
-              console.log('next: '+next_decks[x])
-              console.log('#random'+new_index)
-              console.log('data-img-'+next_deck)
-              console.log($('#random'+new_index).attr('data-img-'+next_deck))
-
+ 
               $('#info'+card_num+'_'+this_deck).attr('data-next-img', $('#random'+new_index).attr('data-img-'+next_deck))
               $('#info'+card_num+'_'+this_deck).attr('data-deck-nickname', $('#deck_'+next_deck).attr('data-nickname'))
               $('#info'+card_num+'_'+this_deck).attr('data-deck-link', $('#deck_'+next_deck).attr('data-link'))
