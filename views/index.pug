@@ -1,24 +1,56 @@
 extends layout
 
 block content
+  - var deck_for_card = []
+  - var counter = 0
+  each card in tarot
+    - var random_num = Math.round(Math.random() * 4)
+    - var random_deck_token = deck_tokens[random_num]
+    - deck_for_card.push(random_deck_token)
+
+    div(id='random'+(counter+1), class='random-card', 'data-deck-token'=random_deck_token, 'data-card-token'=all_cards[counter], 'data-card-name'=tarot[all_cards[counter]]['name'], 'data-img'='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks'][random_deck_token]['image'], 'data-deck'=decks[random_deck_token]['nickname'], 'data-deck-link'=decks[random_deck_token]['link'], 'data-deck-nickname'=decks[random_deck_token]['nickname'])
+
+    - counter += 1
+
   div.row
     each card, index in cards
-      div.col-4(id='card'+(index+1)+'_rws', style='vertical-align: center;')
-        img.card(src='https://brackish.s3.us-west-1.amazonaws.com/'+card['decks']['rws']['image'], style='width: 100%;', id='img'+(index+1)+'_'+ card_tokens[index]+'_rws', 'card-token'=card_tokens[index])
+      div.col-4
+        div.back(id='back'+(index+1))
+          if index == 0
+            p 
+              | ❤️ <strong>Personal:</strong> <a href='' class='reloadcard' id='reloadcard_1'>Reload</a> 
+              | until a card matches how you feel <strong>emotionally</strong> right now
+          else if index == 1
+            p 
+              | 👋 <strong>Social:</strong> <a href='' class='reloadcard' id='reloadcard_2'>Reload</a>  
+              | until a card matches how your <strong>relationships</strong> feel right now
+          else if index == 2
+            p 
+              | 🌎 <strong>External:</strong> <a href='' class='reloadcard' id='reloadcard_3'>Reload</a>  
+              | until a card matches how <strong>the world</strong> feels right now
+
+  div.row
+    each card, index in cards
+      div.col-4(id='card'+(index+1), style='vertical-align: center;')
+        - var deck = deck_for_card[card_index[index]]
+
+        img.card(id='img'+(index+1), style='width: 100%;', src='https://brackish.s3.us-west-1.amazonaws.com/'+card['decks'][deck]['image'], 'data-card-token'=card_tokens[index], 'data-deck-token'=deck)
+        
         div.small(class='card-name')
-          span= card['name'] + ' from '
-          div(id='name'+(index+1), style='display: inline;') 
-            a(href=decks['rws']['link'])= decks['rws']['nickname']
+          div(id='cname'+(index+1), style='display: inline;')= card['name'] + ' from '
+          div(id='dname'+(index+1), style='display: inline;') 
+            a(href=decks[deck]['link'])= decks[deck]['nickname']
 
-        div(id='info'+(index+1)+'_rws', class='card-info', 'data-next'='thoth', data-next-img='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks']['thoth']['image'], 'data-deck'=decks['rws']['nickname'], 'data-deck-link'=decks['rws']['link'])
+        div(id='info'+(index+1)+'_rws', class='card-info', 'data-next'='thoth', data-next-img='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks']['thoth']['image'], 'data-deck-nickname'=decks['rws']['nickname'], 'data-deck-link'=decks['rws']['link'])
 
-        div(id='info'+(index+1)+'_thoth', class='card-info', 'data-next'='cbd', data-next-img='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks']['cbd']['image'], 'data-deck'=decks['thoth']['nickname'], 'data-deck-link'=decks['thoth']['link'])
+        div(id='info'+(index+1)+'_thoth', class='card-info', 'data-next'='cbd', data-next-img='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks']['cbd']['image'], 'data-deck-nickname'=decks['thoth']['nickname'], 'data-deck-link'=decks['thoth']['link'])
 
-        div(id='info'+(index+1)+'_cbd', class='card-info',   'data-next'='mary', data-next-img='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks']['mary']['image'], 'data-deck'=decks['cbd']['nickname'], 'data-deck-link'=decks['cbd']['link'])
+        div(id='info'+(index+1)+'_cbd', class='card-info',   'data-next'='mary', data-next-img='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks']['mary']['image'], 'data-deck-nickname'=decks['cbd']['nickname'], 'data-deck-link'=decks['cbd']['link'])
 
-        div(id='info'+(index+1)+'_mary', class='card-info',  'data-next'='brady', data-next-img='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks']['brady']['image'], 'data-deck'=decks['mary']['nickname'], 'data-deck-link'=decks['mary']['link'])
+        div(id='info'+(index+1)+'_mary', class='card-info',  'data-next'='brady', data-next-img='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks']['brady']['image'], 'data-deck-nickname'=decks['mary']['nickname'], 'data-deck-link'=decks['mary']['link'])
 
-        div(id='info'+(index+1)+'_brady', class='card-info', 'data-next'='rws', data-next-img='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks']['rws']['image'], 'data-deck'=decks['brady']['nickname'], 'data-deck-link'=decks['brady']['link'])
+        div(id='info'+(index+1)+'_brady', class='card-info', 'data-next'='rws', data-next-img='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks']['rws']['image'], 'data-deck-nickname'=decks['brady']['nickname'], 'data-deck-link'=decks['brady']['link'])
+
 
 block style
   style(type='text/css').
@@ -37,44 +69,64 @@ block scripts
   script(type='text/javascript').
     $( document ).ready(function(){
 
+      // Reload a card panel with a different deck of the same card
       $('.card').click(function() {
-        var card_data = this.id.split('_')
-        var card_num  = card_data[0]
-        var card_item = card_data[1]
-        var card_deck = card_data[2]
-
-        if (card_num == 'img1') {
-          // Figure out the next card
-          var next_deck = $('#info1'+'_'+card_deck).attr('data-next')
-          var next_img  = $('#info1'+'_'+card_deck).attr('data-next-img')
-
-          // Update the image
-          $('#img1_'+card_item+'_'+card_deck).attr('src', next_img)
-          $('#img1_'+card_item+'_'+card_deck).prop('id', 'img1_'+card_item+'_'+next_deck)
-
-          // Update the name
-          $('#name1').html("<a target='_blank' href='"+$('#info1_'+next_deck).attr('data-deck-link')+"'>"+$('#info1_'+next_deck).attr('data-deck')+"</a>")
-
-        } else if (card_num == 'img2') {
-          var next_deck = $('#info2'+'_'+card_deck).attr('data-next')
-          var next_img  = $('#info2'+'_'+card_deck).attr('data-next-img')
-          $('#img2_'+card_item+'_'+card_deck).attr('src', next_img)
-          $('#img2_'+card_item+'_'+card_deck).prop('id', 'img2_'+card_item+'_'+next_deck)
-
-          // Update the name
-          $('#name2').html("<a target='_blank' href='"+$('#info2_'+next_deck).attr('data-deck-link')+"'>"+$('#info2_'+next_deck).attr('data-deck')+"</a>")
-
-        } else if (card_num == 'img3') {
-          var next_deck = $('#info3'+'_'+card_deck).attr('data-next')
-          var next_img  = $('#info3'+'_'+card_deck).attr('data-next-img')
-          $('#img3_'+card_item+'_'+card_deck).attr('src', next_img)
-          $('#img3_'+card_item+'_'+card_deck).prop('id', 'img3_'+card_item+'_'+next_deck)
-
-          // Update the name
-          $('#name3').html("<a target='_blank' href='"+$('#info3_'+next_deck).attr('data-deck-link')+"'>"+$('#info3_'+next_deck).attr('data-deck')+"</a>")
-
-        } else {
-          window.alert(card_num)
+        var card_num  = null
+        if (this.id == 'img1') {
+          card_num = 1
+        } else if (this.id == 'img2') {
+          card_num = 2
+        } else if (this.id == 'img3') {
+          card_num = 3
         }
-      })
+        var card_token = $(this).attr('data-card-token')
+        var card_deck = $(this).attr('data-deck-token')
+
+        // Figure out the next card
+        var next_deck = $('#info'+card_num+'_'+card_deck).attr('data-next')
+        var next_img  = $('#info'+card_num+'_'+card_deck).attr('data-next-img')
+        console.log(next_img)
+
+        // Update the image
+        $('#img'+card_num).attr('src', next_img)
+        $('#img'+card_num).attr('data-deck-token', next_deck)
+
+        // Update the name
+        $('#dname'+card_num).html("<a target='_blank' href='"+$('#info'+card_num+'_'+next_deck).attr('data-deck-link')+"'>"+$('#info'+card_num+'_'+next_deck).attr('data-deck-nickname')+"</a>")
+      });
+
+      // Reload a card panel with a new card
+      $('.reloadcard').click(function(e) {
+
+        // Get new card
+        var reloadcard_info = this.id.split('_')
+        var card_num        = reloadcard_info[1]
+        var card_change     = false
+
+        while (card_change == false) {
+          var new_index       = Math.round(Math.random()*78)+1
+          var new_card_token  = $('#random'+new_index).attr('data-card-token')
+          var new_deck_token  = $('#random'+new_index).attr('data-deck-token')
+
+          if (($('#img1').attr('data-card-token') != new_card_token) &&
+              ($('#img2').attr('data-card-token') != new_card_token) && 
+              ($('#img3').attr('data-card-token') != new_card_token)) {
+
+            // Update the image
+            $('#img'+card_num).attr('src', $('#random'+new_index).attr('data-img'))
+            $('#img'+card_num).attr('data-card-token', $('#random'+new_index).attr('data-card-token'))
+            $('#img'+card_num).attr('data-deck-token', $('#random'+new_index).attr('data-deck-token'))
+
+            // Update the name
+            $('#cname'+card_num).html($('#random'+new_index).attr('data-card-name')+' from ')
+            $('#dname'+card_num).html("<a href='"+$('#random'+new_index).attr('data-deck-link')+"'>"+$('#random'+new_index).attr('data-deck-nickname')+"</a>")
+
+            card_change = true
+          }
+        }
+
+        e.preventDefault();
+        return false
+      });
+
     });
