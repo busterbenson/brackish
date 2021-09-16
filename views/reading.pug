@@ -15,14 +15,11 @@ block content
       div(class='mt-4 col-12 col-md-4 order-'+order+' order-md-'+(index+1))
         div.back(id='back'+(index+1))
           if index == 0
-            p 
-              | ❤️ <strong>Personal:</strong> How I feel.
+            p !{questions['1c']}
           else if index == 1
-            p 
-              | 👋 <strong>Social:</strong> How my relationships feel.
+            p !{questions['2c']}
           else if index == 2
-            p 
-              | 🌎 <strong>External:</strong> How the world feels.
+            p !{questions['3c']}
 
     each card, index in cards
       - var order = (index*2)+2
