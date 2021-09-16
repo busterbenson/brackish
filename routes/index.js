@@ -21,7 +21,7 @@ router.get(['/','/spread/:spread'], function(req, res, next) {
       '2a': "👋 <strong>Interpersonal:</strong> Click on this card as you think about how your relationships with others feel right now.",
       '2b': "👋 <strong>Interpersonal:</strong> <a href='' class='reloadcard' id='reloadcard_2'>Flip through cards</a> until a card matches how your <strong>relationships with others</strong> feel right now.",
       '3a': "🌎 <strong>External:</strong> Click on this card as you think about how the world is feeling right now.",
-      '3b': "🌎 <strong>External:</strong> <a href='' class='reloadcard' id='reloadcard_3'>Flip through cards</a>until a card matches how <strong>the world</strong> feels right now.",
+      '3b': "🌎 <strong>External:</strong> <a href='' class='reloadcard' id='reloadcard_3'>Flip through cards</a> until a card matches how <strong>the world</strong> feels right now.",
     },
     spreads: {
       'hru': {
