@@ -22,30 +22,22 @@ block content
 
     - counter += 1
 
+  if questions && questions['question']
+    h1= questions['question']
   div.row
     each card, index in cards
       - var order = (index*2)+1
       div(class='mt-4 col-12 col-md-4 order-'+order+' order-md-'+(index+1))
         div.prompt(id='prompt'+(index+1))
           if index == 0
-            div#prompt1a
-              | ❤️ <strong>Personal:</strong> <a href='' class='reloadcard' id='reloadcard_1'>Flip through cards</a> 
-              | until a card matches how you feel <strong>emotionally</strong> right now.
-            div#prompt1b
-              | ❤️ <strong>Personal:</strong> Click on this card as you think about how you feel right now.
-
+            div#prompt1a !{questions['1a']}
+            div#prompt1b !{questions['1b']}
           else if index == 1
-            div#prompt2a
-              | 👋 <strong>Social:</strong> <a href='' class='reloadcard' id='reloadcard_2'>Flip through cards</a>  
-              | until a card matches how your <strong>relationships with others</strong> feel right now.
-            div#prompt2b
-              | 👋 <strong>Social:</strong> Click on this card as you think about how your relationships with others feel right now.
+            div#prompt2a !{questions['2a']}
+            div#prompt2b !{questions['2b']}
           else if index == 2
-            div#prompt3a
-              | 🌎 <strong>External:</strong> <a href='' class='reloadcard' id='reloadcard_3'>Flip through cards</a>  
-              | until a card matches how <strong>the world</strong> feels right now.
-            div#prompt3b
-              | 🌎 <strong>External:</strong> Click on this card as you think about how the world is feeling right now.
+            div#prompt3a !{questions['3a']}
+            div#prompt3b !{questions['3b']}
 
     each card, index in cards
       - var order = (index*2)+2
@@ -82,10 +74,10 @@ block style
     }
     #prompt1a, #prompt2a, #prompt3a {
       margin-bottom: 10px;
-      display: none;
     }
     #prompt1b, #prompt2b, #prompt3b {
       margin-bottom: 10px;
+      display: none;
     }
     .card-name {
       text-align: center; 
@@ -115,8 +107,8 @@ block scripts
       $('.back').click(function() {
         var num = $(this).attr('data-card')
         $(this).attr('style', 'display:none;')
-        $('#prompt'+num+'b').attr('style', 'display:none;')
-        $('#prompt'+num+'a').attr('style', 'display:block;')
+        $('#prompt'+num+'a').attr('style', 'display:none;')
+        $('#prompt'+num+'b').attr('style', 'display:block;')
         $('#img'+num).attr('style', 'display: block; width:100%;')
         $('#card-name-'+num).attr('style', 'display: block;')
       })

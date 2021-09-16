@@ -24,8 +24,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 // This will use the contents of 'bootstrap/dist/css' which is placed in your node_modules folder as if it is in your '/styles/css' directory.
 app.use("/stylesheets", express.static(path.join(__dirname, "node_modules/bootstrap/dist/css"))); 
 
-// Routes
-app.use('/', indexRouter);
+// Routers
+app.use(indexRouter);
 app.use(readingRouter);
 
 // Catch 404 and forward to error handler
