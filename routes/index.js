@@ -46,11 +46,11 @@ router.get(['/','/spread/:spread'], function(req, res, next) {
     // Get 3 cards to display initially
     while (params['cards'].length < 3) {
       var random_index = Math.floor(Math.random() * 78)
-      var card = params['tarot'][params['all_cards'][random_index-1]]
+      var card = params['tarot'][params['all_cards'][random_index]]
       if (!params['cards'].includes(card)) {
         params['cards'].push(card)
-        params['card_tokens'].push(params['all_cards'][random_index-1])
-        params['card_index'].push(random_index-1)
+        params['card_tokens'].push(params['all_cards'][random_index])
+        params['card_index'].push(random_index)
       }
     }
   } catch (e) {
@@ -79,7 +79,7 @@ router.get(['/','/spread/:spread'], function(req, res, next) {
   } else {
     params['spread'] = 'hru'
   }
-  
+
   res.render('index', params);
 });
 

@@ -51,6 +51,10 @@ block content
         - var deck = deck_for_card[card_index[index]]
 
         img.back(id='back'+(index+1), style='width: 100%;', src='/images/card-back-'+(index+1)+'.png', data-card=(index+1))
+
+        - console.log(index)
+        - console.log(card_index[index])
+        - console.log(deck)
         img.card(id='img'+(index+1), style='width: 100%;', src='https://brackish.s3.us-west-1.amazonaws.com/'+card['decks'][deck]['image'], 'data-card-token'=card_tokens[index], 'data-deck-token'=deck)
         
         div.small(id='card-name-'+(index+1), class='card-name')
