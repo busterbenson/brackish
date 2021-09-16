@@ -1,6 +1,8 @@
 extends layout
 
 block content
+  div#spread(data-spread=spread, data-next=spreads[spread]['next'])
+
   each k,v in decks
     div(id='deck_'+k, 'data-name'=v['name'], 'data-link'=v['link'], 'data-nickname'=v['nickname'])
 
@@ -23,7 +25,11 @@ block content
     - counter += 1
 
   if questions && questions['question']
-    h1= questions['question']
+    h1
+      = questions['question']
+      a(href='', class='reload-spread', data-spread=spread) ↺
+  if questions && questions['description']
+    div= questions['description']
   div.row
     each card, index in cards
       - var order = (index*2)+1
@@ -88,6 +94,14 @@ block style
       color: #666;
       text-decoration: underline;
     }
+    a.reload-spread {
+      float: right;
+      text-decoration: none;
+      color: #7c5a2d;
+    }
+    a:hover.reload-spread {
+      color: #bc994d;
+    }
 
 
 block scripts
@@ -96,6 +110,7 @@ block scripts
 
       function link_to_this_page() {
         var link_string = window.location.origin +'/reading/' +
+                          $('#spread').attr('data-spread') +'/'+
                           $('#img1').attr('data-deck-token')+'_'+$('#img1').attr('data-card-token') +'/'+
                           $('#img2').attr('data-deck-token')+'_'+$('#img2').attr('data-card-token') +'/'+
                           $('#img3').attr('data-deck-token')+'_'+$('#img3').attr('data-card-token');
@@ -192,5 +207,14 @@ block scripts
         e.preventDefault();
         return false
       });
+
+
+      $('a.reload-spread').click(function(e) {
+        console.log(spread)
+        console.log($('#spread').attr('data-next'))
+        window.location = $('#spread').attr('data-next')
+        e.preventDefault();
+        return false
+      })
 
     });

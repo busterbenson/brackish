@@ -6,7 +6,7 @@ var fs      = require('fs');
 var yaml    = require('js-yaml');
 
 /* GET cards for reading. */
-router.get('/reading/:card1/:card2/:card3', function(req, res, next) {
+router.get('/reading/:spread/:card1/:card2/:card3', function(req, res, next) {
 
   var params = {
     title: 'Brackish Cards',
@@ -17,7 +17,23 @@ router.get('/reading/:card1/:card2/:card3', function(req, res, next) {
     card_decks: [],
     card_tokens: [],
     card_index: [],
-    deck_tokens: ['rws', 'thoth', 'cbd', 'mary', 'brady']
+    deck_tokens: ['rws', 'thoth', 'cbd', 'mary', 'brady'],
+    questions: {
+      'question': "How am I doing?",
+      '1c': "❤️ <strong>Internal:</strong> How I feel.",
+      '2c': "👋 <strong>Interpersonal:</strong> How my relationships feel.",
+      '3c': "🌎 <strong>External:</strong> How the world feels.",
+    },
+    spreads: {
+      'hru': {
+        'current': '/',
+        'next':    '/spread/whats-next'
+      },
+      'whats-next': {
+        'current': '/spread/whats-next',
+        'next':    '/'
+      }
+    }
   }
 
   try {
@@ -52,6 +68,26 @@ router.get('/reading/:card1/:card2/:card3', function(req, res, next) {
     console.log(params)
   } catch (e) {
     console.log('Error in reading.js try block: '+e);
+  }
+
+  // Spread and prompts
+  // a: before flipping the card
+  // b: after flipping the card
+  // c: when permalinked
+  spread = req.params['spread']
+  if (spread) {
+    if (spread == 'whats-next') {
+      params['spread'] = 'whats-next'
+      params['questions'] = {
+      'question': "What's next?",
+      'description': 'Three options for ways to think about what might be coming next.',
+      '1c': "<strong>Option 1:</strong>",
+      '2c': "<strong>Option 2:</strong>",
+      '3c': "<strong>Option 3:</strong>",
+    }      
+    }
+  } else {
+    params['spread'] = 'hru'
   }
 
   res.render('reading', params);

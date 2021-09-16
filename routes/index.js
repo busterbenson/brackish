@@ -15,12 +15,23 @@ router.get(['/','/spread/:spread'], function(req, res, next) {
     card_index: [],
     deck_tokens: ['rws', 'thoth', 'cbd', 'mary', 'brady'],
     questions: {
-      '1a': "❤️ <strong>Personal:</strong> Click on this card as you think about how you feel right now.",
-      '1b': "❤️ <strong>Personal:</strong> <a href='' class='reloadcard' id='reloadcard_1'>Flip through cards</a> until a card matches how you feel <strong>emotionally</strong> right now.",
-      '2a': "👋 <strong>Social:</strong> Click on this card as you think about how your relationships with others feel right now.",
-      '2b': "👋 <strong>Social:</strong> <a href='' class='reloadcard' id='reloadcard_2'>Flip through cards</a> until a card matches how your <strong>relationships with others</strong> feel right now.",
+      'question': "How are you doing?",
+      '1a': "❤️ <strong>Internal:</strong> Click on this card as you think about how you feel right now.",
+      '1b': "❤️ <strong>Internal:</strong> <a href='' class='reloadcard' id='reloadcard_1'>Flip through cards</a> until a card matches how you feel <strong>emotionally</strong> right now.",
+      '2a': "👋 <strong>Interpersonal:</strong> Click on this card as you think about how your relationships with others feel right now.",
+      '2b': "👋 <strong>Interpersonal:</strong> <a href='' class='reloadcard' id='reloadcard_2'>Flip through cards</a> until a card matches how your <strong>relationships with others</strong> feel right now.",
       '3a': "🌎 <strong>External:</strong> Click on this card as you think about how the world is feeling right now.",
       '3b': "🌎 <strong>External:</strong> <a href='' class='reloadcard' id='reloadcard_3'>Flip through cards</a>until a card matches how <strong>the world</strong> feels right now.",
+    },
+    spreads: {
+      'hru': {
+        'current': '/',
+        'next':    '/spread/whats-next'
+      },
+      'whats-next': {
+        'current': '/spread/whats-next',
+        'next':    '/'
+      }
     }
   }
 
@@ -47,12 +58,16 @@ router.get(['/','/spread/:spread'], function(req, res, next) {
   }
 
   // Spread and prompts
-  // a: 
+  // a: before flipping the card
+  // b: after flipping the card
+  // c: when permalinked
   spread = req.params['spread']
   if (spread) {
     if (spread == 'whats-next') {
+      params['spread'] = 'whats-next'
       params['questions'] = {
       'question': "What's next?",
+      'description': 'Three options for ways to think about what might be coming next.',
       '1a': "<strong>Option 1:</strong>",
       '1b': "<strong>Option 1:</strong> <a href='' class='reloadcard' id='reloadcard_1'>Flip through cards</a> until you get a card that feels like a viable first option.",
       '2a': "<strong>Option 2:</strong>",
@@ -61,9 +76,10 @@ router.get(['/','/spread/:spread'], function(req, res, next) {
       '3b': "<strong>Option 3:</strong> <a href='' class='reloadcard' id='reloadcard_3'>Flip through cards</a> until you get a card that feels like a viable third option.",
     }      
     }
-  } 
-
-
+  } else {
+    params['spread'] = 'hru'
+  }
+  
   res.render('index', params);
 });
 

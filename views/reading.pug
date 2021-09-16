@@ -1,6 +1,14 @@
 extends layout
 
 block content
+  div#spread(data-spread=spread)
+
+  if questions && questions['question']
+    h1
+      = questions['question']
+  if questions && questions['description']
+    div= questions['description']
+
   div.row
     each card, index in cards
       - var order = (index*2)+1
@@ -30,7 +38,7 @@ block content
 
   div.row
       div#button.col-12.small(style='margin-top: 50px; text-align: center;')
-        a(href='/', class='btn btn-outline-dark', style='text-align: center') Draw 3 new cards
+        a(href=spreads[spread]['current'], class='btn btn-outline-dark', style='text-align: center') Draw 3 new cards
 
 block style
   style(type='text/css').
