@@ -2,17 +2,24 @@ doctype html
 html
   head
     title= title
+
+    <!-- Favicon -->
+    link(rel='shortcut icon', type='image/png', href='/images/brackish-cards.png')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+
+    <!-- Stylesheets -->
     link(rel='stylesheet', href='/stylesheets/style.css')
     link(rel='stylesheet', href='/stylesheets/harmoneux.css')
     link(rel='stylesheet', href='/stylesheets/recoleta.css')
-    link(rel="preconnect", href="https://fonts.googleapis.com")
-    link(rel="preconnect", href="https://fonts.gstatic.com" crossorigin)
-    link(href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap", rel="stylesheet")
-
-    link(rel='shortcut icon', type='image/png', href='/images/brackish-cards.png')
-    script(type='text/javascript', src='/javascripts/jquery-3.6.0.min.js')
+    link(rel='preconnect', href='https://fonts.googleapis.com')
+    link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin)
+    link(href='https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap', rel='stylesheet')
     link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css', integrity='sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh', crossorigin='anonymous')
+
+    <!-- Javascript -->
+    script(type='text/javascript', src='/javascripts/jquery-3.6.0.min.js')
     script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js', integrity='sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6' crossorigin='anonymous')
+  
   body
     div(id='container', class='container')
       block content
