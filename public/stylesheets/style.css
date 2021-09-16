@@ -6,3 +6,13 @@ body {
 a {
   color: #00B7FF;
 }
+
+h1 {
+  font-family: 'HarmoneuxRegular', serif;
+}
+div, p {
+  font-family: 'Recoleta-Regular', serif;
+}
+div.sans-serif, div.small {
+  font-family: 'Source Sans Pro', sans-serif;
+}

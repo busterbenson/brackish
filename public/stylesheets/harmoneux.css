@@ -1,0 +1,28 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4181419, 2021-09-16T13:30:44-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: HarmoneuxRegular by Invasi Studio
+ * URL: https://www.myfonts.com/fonts/invasi-studio/harmoneux/regular/
+ * Copyright: Harmoneux © Invasi Studio . 2021. All Rights Reserved
+ * 
+ * 
+ * 
+ * © 2021 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3fcdab");
+  
+@font-face {
+  font-family: "HarmoneuxRegular";
+  src: url('/fonts/HarmoneuxRegular/font.woff2') format('woff2'), url('/fonts/HarmoneuxRegular/font.woff') format('woff');
+}
+

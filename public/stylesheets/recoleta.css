@@ -1,0 +1,35 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4181424, 2021-09-16T13:47:11-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Recoleta-Bold by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/recoleta/bold/
+ * 
+ * Webfont: Recoleta-Regular by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/recoleta/regular/
+ * 
+ * 
+ * Webfonts copyright: Copyright &amp;#x00A9; 2018 by Jorge Cisterna. All rights reserved.
+ * 
+ * © 2021 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3fcdb0");
+  
+@font-face {
+  font-family: "Recoleta-Regular";
+  src: url('/fonts/RecoletaRegular/font.woff2') format('woff2'), url('webFonts/RecoletaRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: "Recoleta-Bold";
+  src: url('/fonts/RecoletaBold/font.woff2') format('woff2'), url('webFonts/RecoletaBold/font.woff') format('woff');
+}
+

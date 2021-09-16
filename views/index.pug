@@ -58,8 +58,8 @@ block content
         img.card(id='img'+(index+1), style='width: 100%;', src='https://brackish.s3.us-west-1.amazonaws.com/'+card['decks'][deck]['image'], 'data-card-token'=card_tokens[index], 'data-deck-token'=deck)
         
         div.small(id='card-name-'+(index+1), class='card-name')
-          div(id='cname'+(index+1), style='display: inline;')= card['name'] + ' from '
-          div(id='dname'+(index+1), style='display: inline;') 
+          div.sans-serif(id='cname'+(index+1), style='display: inline;')= card['name'] + ' from '
+          div.sans-serif(id='dname'+(index+1), style='display: inline;') 
             a(href=decks[deck]['link'], target='_blank')= decks[deck]['nickname']
 
         div(id='info'+(index+1)+'_rws', class='card-info', 'data-next'='thoth', data-next-img='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks']['thoth']['image'], 'data-deck-nickname'=decks['rws']['nickname'], 'data-deck-link'=decks['rws']['link'])
@@ -81,6 +81,9 @@ block style
   style(type='text/css').
     .card, .card-name, #link {
       display:none;
+    }
+    .card-name, #link {
+      font-family: 'Source Sans Pro', sans-serif;
     }
     #prompt1a, #prompt2a, #prompt3a {
       margin-bottom: 10px;
