@@ -26,28 +26,36 @@ block content
     each card, index in cards
       - var order = (index*2)+1
       div(class='mt-4 col-12 col-md-4 order-'+order+' order-md-'+(index+1))
-        div.back(id='back'+(index+1))
+        div.prompt(id='prompt'+(index+1))
           if index == 0
-            p 
+            div#prompt1a
               | ❤️ <strong>Personal:</strong> <a href='' class='reloadcard' id='reloadcard_1'>Flip through cards</a> 
               | until a card matches how you feel <strong>emotionally</strong> right now.
+            div#prompt1b
+              | ❤️ <strong>Personal:</strong> Click on this card as you think about how you feel right now.
+
           else if index == 1
-            p 
+            div#prompt2a
               | 👋 <strong>Social:</strong> <a href='' class='reloadcard' id='reloadcard_2'>Flip through cards</a>  
-              | until a card matches how your <strong>relationships</strong> feel right now.
+              | until a card matches how your <strong>relationships with others</strong> feel right now.
+            div#prompt2b
+              | 👋 <strong>Social:</strong> Click on this card as you think about how your relationships with others feel right now.
           else if index == 2
-            p 
+            div#prompt3a
               | 🌎 <strong>External:</strong> <a href='' class='reloadcard' id='reloadcard_3'>Flip through cards</a>  
               | until a card matches how <strong>the world</strong> feels right now.
+            div#prompt3b
+              | 🌎 <strong>External:</strong> Click on this card as you think about how the world is feeling right now.
 
     each card, index in cards
       - var order = (index*2)+2
       div(class='col-12 col-md-4 order-'+order+' order-md-'+(index+4), id='card'+(index+1), style='vertical-align: center;')
         - var deck = deck_for_card[card_index[index]]
 
-        img.card(id='img'+(index+1), style='width: 100%; max-height: 90%;', src='https://brackish.s3.us-west-1.amazonaws.com/'+card['decks'][deck]['image'], 'data-card-token'=card_tokens[index], 'data-deck-token'=deck)
+        img.back(id='back'+(index+1), style='width: 100%;', src='/images/card-back-'+(index+1)+'.png', data-card=(index+1))
+        img.card(id='img'+(index+1), style='width: 100%;', src='https://brackish.s3.us-west-1.amazonaws.com/'+card['decks'][deck]['image'], 'data-card-token'=card_tokens[index], 'data-deck-token'=deck)
         
-        div.small(class='card-name')
+        div.small(id='card-name-'+(index+1), class='card-name')
           div(id='cname'+(index+1), style='display: inline;')= card['name'] + ' from '
           div(id='dname'+(index+1), style='display: inline;') 
             a(href=decks[deck]['link'], target='_blank')= decks[deck]['nickname']
@@ -69,6 +77,16 @@ block content
 
 block style
   style(type='text/css').
+    .card, .card-name {
+      display:none;
+    }
+    #prompt1a, #prompt2a, #prompt3a {
+      margin-bottom: 10px;
+      display: none;
+    }
+    #prompt1b, #prompt2b, #prompt3b {
+      margin-bottom: 10px;
+    }
     .card-name {
       text-align: center; 
       padding: 8px; 
@@ -93,6 +111,15 @@ block scripts
         $('#link').html('Link to this page: <a href="'+link_string+'">'+link_string+'</a>')
       }
       link_to_this_page();
+
+      $('.back').click(function() {
+        var num = $(this).attr('data-card')
+        $(this).attr('style', 'display:none;')
+        $('#prompt'+num+'b').attr('style', 'display:none;')
+        $('#prompt'+num+'a').attr('style', 'display:block;')
+        $('#img'+num).attr('style', 'display: block; width:100%;')
+        $('#card-name-'+num).attr('style', 'display: block;')
+      })
 
       // Reload a card panel with a different deck of the same card
       $('.card').click(function() {
