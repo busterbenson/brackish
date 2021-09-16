@@ -79,7 +79,7 @@ block content
 
 block style
   style(type='text/css').
-    .card, .card-name {
+    .card, .card-name, #link {
       display:none;
     }
     #prompt1a, #prompt2a, #prompt3a {
@@ -123,7 +123,13 @@ block scripts
       }
       link_to_this_page();
 
+      var num_cards_flipped = 0
       $('.back').click(function() {
+        num_cards_flipped += 1
+        if (num_cards_flipped > 2) {
+          $('#link').attr('style', 'display: block;')
+        }
+
         var num = $(this).attr('data-card')
         $(this).attr('style', 'display:none;')
         $('#prompt'+num+'a').attr('style', 'display:none;')
