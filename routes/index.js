@@ -13,7 +13,7 @@ router.get(['/','/spread/:spread'], function(req, res, next) {
     cards: [],
     card_tokens: [],
     card_index: [],
-    deck_tokens: ['rws', 'thoth', 'cbd', 'mary', 'brady'],
+    deck_tokens: ['rws', 'thoth', 'cbd', 'mary', 'brady', 'cosma'],
     questions: {
       'question': "How are you doing?",
       '1a': "❤️ <strong>Internal:</strong> Click on this card as you think about how you feel right now.",
@@ -42,7 +42,6 @@ router.get(['/','/spread/:spread'], function(req, res, next) {
     params['decks'] = yaml.load(fs.readFileSync('./data/decks.yaml', 'utf8'));
     // All of the card tokens
     params['all_cards'] = Object.keys(params['tarot'])
-
     // Get 3 cards to display initially
     while (params['cards'].length < 3) {
       var random_index = Math.floor(Math.random() * 78)

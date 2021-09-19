@@ -3,337 +3,536 @@
   name: The Fool
   suit: major
   index: 0
+  symbols: []
   decks: 
     'rws': 
       image: 'rws/rws-arcana-00.png'
+      symbols: []
     'thoth': 
       image: 'thoth/thoth-arcana-00.png'
+      symbols: []
     'cbd': 
       image: 'cbd/cbd-arcana-00.jpg'
+      symbols: []
     'mary': 
       image: 'mary/mary-arcana-00.png'
+      symbols: []
     'brady': 
       image: 'brady/brady-arcana-00.png'
+      symbols: []
+    'cosma': 
+      image: 'cosma/cosma-arcana-00.png'
+      symbols: []
 'major-01':
   name: The Magician
   suit: major
   index: 1
+  symbols: []
   decks: 
     'rws': 
       image: 'rws/rws-arcana-01.png'
+      symbols: []
     'thoth': 
       image: 'thoth/thoth-arcana-01.png'
+      symbols: []
     'cbd': 
       image: 'cbd/cbd-arcana-01.jpg'
+      symbols: []
     'mary': 
       image: 'mary/mary-arcana-01.png'
+      symbols: []
     'brady': 
       image: 'brady/brady-arcana-01.png'
+      symbols: []
+    'cosma': 
+      image: 'cosma/cosma-arcana-01.png'
+      symbols: []
 'major-02':
   name: The Priestess
   suit: major
   index: 2
+  symbols: []
   decks: 
     'rws': 
       image: 'rws/rws-arcana-02.png'
+      symbols: []
     'thoth': 
       image: 'thoth/thoth-arcana-02.png'
+      symbols: []
     'cbd': 
       image: 'cbd/cbd-arcana-02.jpg'
+      symbols: []
     'mary': 
       image: 'mary/mary-arcana-02.png'
+      symbols: []
     'brady': 
       image: 'brady/brady-arcana-02.png'
+      symbols: []
+    'cosma': 
+      image: 'cosma/cosma-arcana-02.png'
+      symbols: []
 'major-03':
   name: The Empress
   suit: major  
   index: 3
+  symbols: []
   decks: 
     'rws': 
       image: 'rws/rws-arcana-03.png'
+      symbols: []
     'thoth': 
       image: 'thoth/thoth-arcana-03.png'
+      symbols: []
     'cbd': 
       image: 'cbd/cbd-arcana-03.jpg'
+      symbols: []
     'mary': 
       image: 'mary/mary-arcana-03.png'
+      symbols: []
     'brady': 
       image: 'brady/brady-arcana-03.png'
+      symbols: []
+    'cosma': 
+      image: 'cosma/cosma-arcana-03.png'
+      symbols: []
 'major-04':
   name: The Emperor
   suit: major
   index: 4
+  symbols: []
   decks: 
     'rws': 
       image: 'rws/rws-arcana-04.png'
+      symbols: []
     'thoth': 
       image: 'thoth/thoth-arcana-04.png'
+      symbols: []
     'cbd': 
       image: 'cbd/cbd-arcana-04.jpg'
+      symbols: []
     'mary': 
       image: 'mary/mary-arcana-04.png'
+      symbols: []
     'brady': 
       image: 'brady/brady-arcana-04.png'
+      symbols: []
+    'cosma': 
+      image: 'cosma/cosma-arcana-04.png'
+      symbols: []
 'major-05':
   name: The Heirophant
   suit: major
   index: 5
+  symbols: []
   decks: 
     'rws': 
       image: 'rws/rws-arcana-05.png'
+      symbols: []
     'thoth': 
       image: 'thoth/thoth-arcana-05.png'
+      symbols: []
     'cbd': 
       image: 'cbd/cbd-arcana-05.jpg'
+      symbols: []
     'mary': 
       image: 'mary/mary-arcana-05.png'
+      symbols: []
     'brady': 
       image: 'brady/brady-arcana-05.png'
+      symbols: []
+    'cosma': 
+      image: 'cosma/cosma-arcana-05.png'
+      symbols: []
 'major-06':
   name: The Lovers
   suit: major
   index: 6
+  symbols: []
   decks: 
     'rws': 
       image: 'rws/rws-arcana-06.png'
+      symbols: []
     'thoth': 
       image: 'thoth/thoth-arcana-06.png'
+      symbols: []
     'cbd': 
       image: 'cbd/cbd-arcana-06.jpg'
+      symbols: []
     'mary': 
       image: 'mary/mary-arcana-06.png'
+      symbols: []
     'brady': 
       image: 'brady/brady-arcana-06.png'
+      symbols: []
+    'cosma': 
+      image: 'cosma/cosma-arcana-06.png'
+      symbols: []
 'major-07':
   name: The Chariot
   suit: major
   index: 7
+  symbols: []
   decks: 
     'rws': 
       image: 'rws/rws-arcana-07.png'
+      symbols: []
     'thoth': 
       image: 'thoth/thoth-arcana-07.png'
+      symbols: []
     'cbd': 
       image: 'cbd/cbd-arcana-07.jpg'
+      symbols: []
     'mary': 
       image: 'mary/mary-arcana-07.png'
+      symbols: []
     'brady': 
       image: 'brady/brady-arcana-07.png'
+      symbols: []
+    'cosma': 
+      image: 'cosma/cosma-arcana-07.png'
+      symbols: []
 'major-08':
   name: Strength
   suit: major
   index: 8
+  symbols: []
   decks: 
     'rws': 
       image: 'rws/rws-arcana-08.png'
+      symbols: []
     'thoth': 
       image: 'thoth/thoth-arcana-11.png'
+      symbols: []
     'cbd': 
       image: 'cbd/cbd-arcana-11.jpg'
+      symbols: []
     'mary': 
       image: 'mary/mary-arcana-11.png'
+      symbols: []
     'brady': 
       image: 'brady/brady-arcana-08.png'
+      symbols: []
+    'cosma': 
+      image: 'cosma/cosma-arcana-08.png'
+      symbols: []
 'major-09':
   name: The Hermit
   suit: major
   index: 9
+  symbols: []
   decks: 
     'rws': 
       image: 'rws/rws-arcana-09.png'
+      symbols: []
     'thoth': 
       image: 'thoth/thoth-arcana-09.png'
+      symbols: []
     'cbd': 
       image: 'cbd/cbd-arcana-09.jpg'
+      symbols: []
     'mary': 
       image: 'mary/mary-arcana-09.png'
+      symbols: []
     'brady': 
       image: 'brady/brady-arcana-09.png'
+      symbols: []
+    'cosma': 
+      image: 'cosma/cosma-arcana-09.png'
+      symbols: []
 'major-10':
   name: The Wheel of Fortune
   suit: major
   index: 10
+  symbols: []
   decks: 
     'rws': 
       image: 'rws/rws-arcana-10.png'
+      symbols: []
     'thoth': 
       image: 'thoth/thoth-arcana-10.png'
+      symbols: []
     'cbd': 
       image: 'cbd/cbd-arcana-10.jpg'
+      symbols: []
     'mary': 
       image: 'mary/mary-arcana-10.png'
+      symbols: []
     'brady': 
       image: 'brady/brady-arcana-10.png'
+      symbols: []
+    'cosma': 
+      image: 'cosma/cosma-arcana-10.png'
+      symbols: []
 'major-11':
   name: Justice
   suit: major
   index: 11
+  symbols: []
   decks: 
     'rws': 
       image: 'rws/rws-arcana-11.png'
+      symbols: []
     'thoth': 
       image: 'thoth/thoth-arcana-08.png'
+      symbols: []
     'cbd': 
       image: 'cbd/cbd-arcana-08.jpg'
+      symbols: []
     'mary': 
       image: 'mary/mary-arcana-08.png'
+      symbols: []
     'brady': 
       image: 'brady/brady-arcana-11.png'
+      symbols: []
+    'cosma': 
+      image: 'cosma/cosma-arcana-11.png'
+      symbols: []
 'major-12':
   name: The Hanged Man
   suit: major
   index: 12
+  symbols: []
   decks: 
     'rws': 
       image: 'rws/rws-arcana-12.png'
+      symbols: []
     'thoth': 
       image: 'thoth/thoth-arcana-12.png'
+      symbols: []
     'cbd': 
       image: 'cbd/cbd-arcana-12.jpg'
+      symbols: []
     'mary': 
       image: 'mary/mary-arcana-12.png'
+      symbols: []
     'brady': 
       image: 'brady/brady-arcana-12.png'
+      symbols: []
+    'cosma': 
+      image: 'cosma/cosma-arcana-12.png'
+      symbols: []
 'major-13':
   name: Death
   suit: major
   index: 13
+  symbols: []
   decks: 
     'rws': 
       image: 'rws/rws-arcana-13.png'
+      symbols: []
     'thoth': 
       image: 'thoth/thoth-arcana-13.png'
+      symbols: []
     'cbd': 
       image: 'cbd/cbd-arcana-13.jpg'
+      symbols: []
     'mary': 
       image: 'mary/mary-arcana-13.png'
+      symbols: []
     'brady': 
       image: 'brady/brady-arcana-13.png'
+      symbols: []
+    'cosma': 
+      image: 'cosma/cosma-arcana-13.png'
+      symbols: []
 'major-14':
   name: Temperance
   suit: major
   index: 14
+  symbols: []
   decks: 
     'rws': 
       image: 'rws/rws-arcana-14.png'
+      symbols: []
     'thoth': 
       image: 'thoth/thoth-arcana-14.png'
+      symbols: []
     'cbd': 
       image: 'cbd/cbd-arcana-14.jpg'
+      symbols: []
     'mary': 
       image: 'mary/mary-arcana-14.png'
+      symbols: []
     'brady': 
       image: 'brady/brady-arcana-14.png'
+      symbols: []
+    'cosma': 
+      image: 'cosma/cosma-arcana-14.png'
+      symbols: []
 'major-15':
   name: The Devil
   suit: major
   index: 15
+  symbols: []
   decks: 
     'rws': 
       image: 'rws/rws-arcana-15.png'
+      symbols: []
     'thoth': 
       image: 'thoth/thoth-arcana-15.png'
+      symbols: []
     'cbd': 
       image: 'cbd/cbd-arcana-15.jpg'
+      symbols: []
     'mary': 
       image: 'mary/mary-arcana-15.png'
+      symbols: []
     'brady': 
       image: 'brady/brady-arcana-15.png'
+      symbols: []
+    'cosma': 
+      image: 'cosma/cosma-arcana-15.png'
+      symbols: []
 'major-16':
   name: The Tower
   suit: major
   index: 16
+  symbols: []
   decks: 
     'rws': 
       image: 'rws/rws-arcana-16.png'
+      symbols: []
     'thoth': 
       image: 'thoth/thoth-arcana-16.png'
+      symbols: []
     'cbd': 
       image: 'cbd/cbd-arcana-16.jpg'
+      symbols: []
     'mary': 
       image: 'mary/mary-arcana-16.png'
+      symbols: []
     'brady': 
       image: 'brady/brady-arcana-16.png'
+      symbols: []
+    'cosma': 
+      image: 'cosma/cosma-arcana-16.png'
+      symbols: []
 'major-17':
   name: The Star
   suit: major
   index: 17
+  symbols: []
   decks: 
     'rws': 
       image: 'rws/rws-arcana-17.png'
+      symbols: []
     'thoth': 
       image: 'thoth/thoth-arcana-17.png'
+      symbols: []
     'cbd': 
       image: 'cbd/cbd-arcana-17.jpg'
+      symbols: []
     'mary': 
       image: 'mary/mary-arcana-17.png'
+      symbols: []
     'brady': 
       image: 'brady/brady-arcana-17.png'
+      symbols: []
+    'cosma': 
+      image: 'cosma/cosma-arcana-17.png'
+      symbols: []
 'major-18':
   name: The Moon
   suit: major
   index: 18
+  symbols: []
   decks: 
     'rws': 
       image: 'rws/rws-arcana-18.png'
+      symbols: []
     'thoth': 
       image: 'thoth/thoth-arcana-18.png'
+      symbols: []
     'cbd': 
       image: 'cbd/cbd-arcana-18.jpg'
+      symbols: []
     'mary': 
       image: 'mary/mary-arcana-18.png'
+      symbols: []
     'brady': 
       image: 'brady/brady-arcana-18.png'
+      symbols: []
+    'cosma': 
+      image: 'cosma/cosma-arcana-18.png'
+      symbols: []
 'major-19':
   name: The Sun
   suit: major
   index: 19
+  symbols: []
   decks: 
     'rws': 
       image: 'rws/rws-arcana-19.png'
+      symbols: []
     'thoth': 
       image: 'thoth/thoth-arcana-19.png'
+      symbols: []
     'cbd': 
       image: 'cbd/cbd-arcana-19.jpg'
+      symbols: []
     'mary': 
       image: 'mary/mary-arcana-19.png'
+      symbols: []
     'brady': 
       image: 'brady/brady-arcana-19.png'
+      symbols: []
+    'cosma': 
+      image: 'cosma/cosma-arcana-19.png'
+      symbols: []
 'major-20':
   name: Judgment
   suit: major
   index: 20
+  symbols: []
   decks: 
     'rws': 
       image: 'rws/rws-arcana-20.png'
+      symbols: []
     'thoth': 
       image: 'thoth/thoth-arcana-20.png'
+      symbols: []
     'cbd': 
       image: 'cbd/cbd-arcana-20.jpg'
+      symbols: []
     'mary': 
       image: 'mary/mary-arcana-20.png'
+      symbols: []
     'brady': 
       image: 'brady/brady-arcana-20.png'
+      symbols: []
+    'cosma': 
+      image: 'cosma/cosma-arcana-20.png'
+      symbols: []
 'major-21':
   name: The World
   suit: major
   index: 21
+  symbols: []
   decks: 
     'rws': 
       image: 'rws/rws-arcana-21.png'
+      symbols: []
     'thoth': 
       image: 'thoth/thoth-arcana-21.png'
+      symbols: []
     'cbd': 
       image: 'cbd/cbd-arcana-21.jpg'
+      symbols: []
     'mary': 
       image: 'mary/mary-arcana-21.png'
+      symbols: []
     'brady': 
       image: 'brady/brady-arcana-21.png'
+      symbols: []
+    'cosma': 
+      image: 'cosma/cosma-arcana-21.png'
+      symbols: []
 
 'cups-01':
   name: Ace of Cups
   suit: cups
   index: 22
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-cups-01.png'
@@ -345,10 +544,14 @@
       image: 'mary/mary-cups-01.png'
     'brady': 
       image: 'brady/brady-cups-01.png'
+    'cosma': 
+      image: 'cosma/cosma-cups-01.png'
+      symbols: []
 'cups-02':
   name: 2 of Cups
   suit: cups
   index: 23
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-cups-02.png'
@@ -360,10 +563,14 @@
       image: 'mary/mary-cups-02.png'
     'brady': 
       image: 'brady/brady-cups-02.png'
+    'cosma': 
+      image: 'cosma/cosma-cups-02.png'
+      symbols: []
 'cups-03':
   name: 3 of Cups
   suit: cups
   index: 24
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-cups-03.png'
@@ -375,10 +582,14 @@
       image: 'mary/mary-cups-03.png'
     'brady': 
       image: 'brady/brady-cups-03.png'
+    'cosma': 
+      image: 'cosma/cosma-cups-03.png'
+      symbols: []
 'cups-04':
   name: 4 of Cups
   suit: cups
   index: 25
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-cups-04.png'
@@ -390,10 +601,14 @@
       image: 'mary/mary-cups-04.png'
     'brady': 
       image: 'brady/brady-cups-04.png'
+    'cosma': 
+      image: 'cosma/cosma-cups-04.png'
+      symbols: []
 'cups-05':
   name: 5 of Cups
   suit: cups
   index: 26
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-cups-05.png'
@@ -405,10 +620,14 @@
       image: 'mary/mary-cups-05.png'
     'brady': 
       image: 'brady/brady-cups-05.png'
+    'cosma': 
+      image: 'cosma/cosma-cups-05.png'
+      symbols: []
 'cups-06':
   name: 6 of Cups
   suit: cups
   index: 27
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-cups-06.png'
@@ -420,10 +639,14 @@
       image: 'mary/mary-cups-06.png'
     'brady': 
       image: 'brady/brady-cups-06.png'
+    'cosma': 
+      image: 'cosma/cosma-cups-06.png'
+      symbols: []
 'cups-07':
   name: 7 of Cups
   suit: cups
   index: 28
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-cups-07.png'
@@ -435,10 +658,14 @@
       image: 'mary/mary-cups-07.png'
     'brady': 
       image: 'brady/brady-cups-07.png'
+    'cosma': 
+      image: 'cosma/cosma-cups-07.png'
+      symbols: []
 'cups-08':
   name: 8 of Cups
   suit: cups
   index: 29
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-cups-08.png'
@@ -450,10 +677,14 @@
       image: 'mary/mary-cups-08.png'
     'brady': 
       image: 'brady/brady-cups-08.png'
+    'cosma': 
+      image: 'cosma/cosma-cups-08.png'
+      symbols: []
 'cups-09':
   name: 9 of Cups
   suit: cups
   index: 30
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-cups-09.png'
@@ -465,10 +696,14 @@
       image: 'mary/mary-cups-09.png'
     'brady': 
       image: 'brady/brady-cups-09.png'
+    'cosma': 
+      image: 'cosma/cosma-cups-09.png'
+      symbols: []
 'cups-10':
   name: 10 of Cups
   suit: cups
   index: 31
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-cups-10.png'
@@ -480,10 +715,14 @@
       image: 'mary/mary-cups-10.png'
     'brady': 
       image: 'brady/brady-cups-10.png'
+    'cosma': 
+      image: 'cosma/cosma-cups-10.png'
+      symbols: []
 'cups-11':
   name: Page of Cups
   suit: cups
   index: 32
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-cups-11.png'
@@ -495,10 +734,14 @@
       image: 'mary/mary-cups-11.png'
     'brady': 
       image: 'brady/brady-cups-11.png'
+    'cosma': 
+      image: 'cosma/cosma-cups-11.png'
+      symbols: []
 'cups-12':
   name: Knight of Cups
   suit: cups
   index: 33
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-cups-12.png'
@@ -510,10 +753,14 @@
       image: 'mary/mary-cups-12.png'
     'brady': 
       image: 'brady/brady-cups-12.png'
+    'cosma': 
+      image: 'cosma/cosma-cups-12.png'
+      symbols: []
 'cups-13':
   name: Queen of Cups
   suit: cups
   index: 34
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-cups-13.png'
@@ -525,10 +772,14 @@
       image: 'mary/mary-cups-13.png'
     'brady': 
       image: 'brady/brady-cups-13.png'
+    'cosma': 
+      image: 'cosma/cosma-cups-13.png'
+      symbols: []
 'cups-14':
   name: King of Cups
   suit: cups
   index: 35
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-cups-14.png'
@@ -540,11 +791,15 @@
       image: 'mary/mary-cups-14.png'
     'brady': 
       image: 'brady/brady-cups-14.png'
+    'cosma': 
+      image: 'cosma/cosma-cups-14.png'
+      symbols: []
 
 'coins-01':
   name: Ace of Coins
   suit: coins
   index: 36
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-coins-01.png'
@@ -556,10 +811,14 @@
       image: 'mary/mary-coins-01.png'
     'brady': 
       image: 'brady/brady-coins-01.png'
+    'cosma': 
+      image: 'cosma/cosma-coins-01.png'
+      symbols: []
 'coins-02':
   name: 2 of Coins
   suit: coins
   index: 37
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-coins-02.png'
@@ -571,10 +830,14 @@
       image: 'mary/mary-coins-02.png'
     'brady': 
       image: 'brady/brady-coins-02.png'
+    'cosma': 
+      image: 'cosma/cosma-coins-02.png'
+      symbols: []
 'coins-03':
   name: 3 of Coins
   suit: coins
   index: 38
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-coins-03.png'
@@ -586,10 +849,14 @@
       image: 'mary/mary-coins-03.png'
     'brady': 
       image: 'brady/brady-coins-03.png'
+    'cosma': 
+      image: 'cosma/cosma-coins-03.png'
+      symbols: []
 'coins-04':
   name: 4 of Coins
   suit: coins
   index: 39
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-coins-04.png'
@@ -601,10 +868,14 @@
       image: 'mary/mary-coins-04.png'
     'brady': 
       image: 'brady/brady-coins-04.png'
+    'cosma': 
+      image: 'cosma/cosma-coins-04.png'
+      symbols: []
 'coins-05':
   name: 5 of Coins
   suit: coins
   index: 40
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-coins-05.png'
@@ -616,10 +887,14 @@
       image: 'mary/mary-coins-05.png'
     'brady': 
       image: 'brady/brady-coins-05.png'
+    'cosma': 
+      image: 'cosma/cosma-coins-05.png'
+      symbols: []
 'coins-06':
   name: 6 of Coins
   suit: coins
   index: 41
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-coins-06.png'
@@ -631,10 +906,14 @@
       image: 'mary/mary-coins-06.png'
     'brady': 
       image: 'brady/brady-coins-06.png'
+    'cosma': 
+      image: 'cosma/cosma-coins-06.png'
+      symbols: []
 'coins-07':
   name: 7 of Coins
   suit: coins
   index: 42
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-coins-07.png'
@@ -646,10 +925,14 @@
       image: 'mary/mary-coins-07.png'
     'brady': 
       image: 'brady/brady-coins-07.png'
+    'cosma': 
+      image: 'cosma/cosma-coins-07.png'
+      symbols: []
 'coins-08':
   name: 8 of Coins
   suit: coins
   index: 43
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-coins-08.png'
@@ -661,10 +944,14 @@
       image: 'mary/mary-coins-08.png'
     'brady': 
       image: 'brady/brady-coins-08.png'
+    'cosma': 
+      image: 'cosma/cosma-coins-08.png'
+      symbols: []
 'coins-09':
   name: 9 of Coins
   suit: coins
   index: 44
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-coins-09.png'
@@ -676,10 +963,14 @@
       image: 'mary/mary-coins-09.png'
     'brady': 
       image: 'brady/brady-coins-09.png'
+    'cosma': 
+      image: 'cosma/cosma-coins-09.png'
+      symbols: []
 'coins-10':
   name: 10 of Coins
   suit: coins
   index: 45
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-coins-10.png'
@@ -691,10 +982,14 @@
       image: 'mary/mary-coins-10.png'
     'brady': 
       image: 'brady/brady-coins-10.png'
+    'cosma': 
+      image: 'cosma/cosma-coins-10.png'
+      symbols: []
 'coins-11':
   name: Page of Coins
   suit: coins
   index: 46
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-coins-11.png'
@@ -706,10 +1001,14 @@
       image: 'mary/mary-coins-11.png'
     'brady': 
       image: 'brady/brady-coins-11.png'
+    'cosma': 
+      image: 'cosma/cosma-coins-11.png'
+      symbols: []
 'coins-12':
   name: Knight of Coins
   suit: coins
   index: 47
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-coins-12.png'
@@ -721,10 +1020,14 @@
       image: 'mary/mary-coins-12.png'
     'brady': 
       image: 'brady/brady-coins-12.png'
+    'cosma': 
+      image: 'cosma/cosma-coins-12.png'
+      symbols: []
 'coins-13':
   name: Queen of Coins
   suit: coins
   index: 48
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-coins-13.png'
@@ -736,10 +1039,14 @@
       image: 'mary/mary-coins-13.png'
     'brady': 
       image: 'brady/brady-coins-13.png'
+    'cosma': 
+      image: 'cosma/cosma-coins-13.png'
+      symbols: []
 'coins-14':
   name: King of Coins
   suit: coins
   index: 49
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-coins-14.png'
@@ -751,11 +1058,15 @@
       image: 'mary/mary-coins-14.png'
     'brady': 
       image: 'brady/brady-coins-14.png'
+    'cosma': 
+      image: 'cosma/cosma-coins-14.png'
+      symbols: []
 
 'swords-01':
   name: Ace of Swords
   suit: swords
   index: 50
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-swords-01.png'
@@ -767,10 +1078,14 @@
       image: 'mary/mary-swords-01.png'
     'brady': 
       image: 'brady/brady-swords-01.png'
+    'cosma': 
+      image: 'cosma/cosma-swords-01.png'
+      symbols: []
 'swords-02':
   name: 2 of Swords
   suit: swords
   index: 51
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-swords-02.png'
@@ -782,10 +1097,14 @@
       image: 'mary/mary-swords-02.png'
     'brady': 
       image: 'brady/brady-swords-02.png'
+    'cosma': 
+      image: 'cosma/cosma-swords-02.png'
+      symbols: []
 'swords-03':
   name: 3 of Swords
   suit: swords
   index: 52
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-swords-03.png'
@@ -797,10 +1116,14 @@
       image: 'mary/mary-swords-03.png'
     'brady': 
       image: 'brady/brady-swords-03.png'
+    'cosma': 
+      image: 'cosma/cosma-swords-03.png'
+      symbols: []
 'swords-04':
   name: 4 of Swords
   suit: swords
   index: 53
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-swords-04.png'
@@ -812,10 +1135,14 @@
       image: 'mary/mary-swords-04.png'
     'brady': 
       image: 'brady/brady-swords-04.png'
+    'cosma': 
+      image: 'cosma/cosma-swords-04.png'
+      symbols: []
 'swords-05':
   name: 5 of Swords
   suit: swords
   index: 54
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-swords-05.png'
@@ -827,10 +1154,14 @@
       image: 'mary/mary-swords-05.png'
     'brady': 
       image: 'brady/brady-swords-05.png'
+    'cosma': 
+      image: 'cosma/cosma-swords-05.png'
+      symbols: []
 'swords-06':
   name: 6 of Swords
   suit: swords
   index: 55
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-swords-06.png'
@@ -842,10 +1173,14 @@
       image: 'mary/mary-swords-06.png'
     'brady': 
       image: 'brady/brady-swords-06.png'
+    'cosma': 
+      image: 'cosma/cosma-swords-06.png'
+      symbols: []
 'swords-07':
   name: 7 of Swords
   suit: swords
   index: 56
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-swords-07.png'
@@ -857,10 +1192,14 @@
       image: 'mary/mary-swords-07.png'
     'brady': 
       image: 'brady/brady-swords-07.png'
+    'cosma': 
+      image: 'cosma/cosma-swords-07.png'
+      symbols: []
 'swords-08':
   name: 8 of Swords
   suit: swords
   index: 57
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-swords-08.png'
@@ -872,10 +1211,14 @@
       image: 'mary/mary-swords-08.png'
     'brady': 
       image: 'brady/brady-swords-08.png'
+    'cosma': 
+      image: 'cosma/cosma-swords-08.png'
+      symbols: []
 'swords-09':
   name: 9 of Swords
   suit: swords
   index: 58
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-swords-09.png'
@@ -887,10 +1230,14 @@
       image: 'mary/mary-swords-09.png'
     'brady': 
       image: 'brady/brady-swords-09.png'
+    'cosma': 
+      image: 'cosma/cosma-swords-09.png'
+      symbols: []
 'swords-10':
   name: 10 of Swords
   suit: swords
   index: 59
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-swords-10.png'
@@ -902,10 +1249,14 @@
       image: 'mary/mary-swords-10.png'
     'brady': 
       image: 'brady/brady-swords-10.png'
+    'cosma': 
+      image: 'cosma/cosma-swords-10.png'
+      symbols: []
 'swords-11':
   name: Page of Swords
   suit: swords
   index: 60
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-swords-11.png'
@@ -917,10 +1268,14 @@
       image: 'mary/mary-swords-11.png'
     'brady': 
       image: 'brady/brady-swords-11.png'
+    'cosma': 
+      image: 'cosma/cosma-swords-11.png'
+      symbols: []
 'swords-12':
   name: Knight of Swords
   suit: swords
   index: 61
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-swords-12.png'
@@ -932,10 +1287,14 @@
       image: 'mary/mary-swords-12.png'
     'brady': 
       image: 'brady/brady-swords-12.png'
+    'cosma': 
+      image: 'cosma/cosma-swords-12.png'
+      symbols: []
 'swords-13':
   name: Queen of Swords
   suit: swords
   index: 62
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-swords-13.png'
@@ -947,10 +1306,14 @@
       image: 'mary/mary-swords-13.png'
     'brady': 
       image: 'brady/brady-swords-13.png'
+    'cosma': 
+      image: 'cosma/cosma-swords-13.png'
+      symbols: []
 'swords-14':
   name: King of Swords
   suit: swords
   index: 63
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-swords-14.png'
@@ -962,11 +1325,15 @@
       image: 'mary/mary-swords-14.png'
     'brady': 
       image: 'brady/brady-swords-14.png'
+    'cosma': 
+      image: 'cosma/cosma-swords-14.png'
+      symbols: []
 
 'wands-01':
   name: Ace of Wands
   suit: wands
   index: 64
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-wands-01.png'
@@ -978,10 +1345,14 @@
       image: 'mary/mary-wands-01.png'
     'brady': 
       image: 'brady/brady-wands-01.png'
+    'cosma': 
+      image: 'cosma/cosma-wands-01.png'
+      symbols: []
 'wands-02':
   name: 2 of Wands
   suit: wands
   index: 65
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-wands-02.png'
@@ -993,10 +1364,14 @@
       image: 'mary/mary-wands-02.png'
     'brady': 
       image: 'brady/brady-wands-02.png'
+    'cosma': 
+      image: 'cosma/cosma-wands-02.png'
+      symbols: []
 'wands-03':
   name: 3 of Wands
   suit: wands
   index: 66
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-wands-03.png'
@@ -1008,10 +1383,14 @@
       image: 'mary/mary-wands-03.png'
     'brady': 
       image: 'brady/brady-wands-03.png'
+    'cosma': 
+      image: 'cosma/cosma-wands-03.png'
+      symbols: []
 'wands-04':
   name: 4 of Wands
   suit: wands
   index: 67
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-wands-04.png'
@@ -1023,10 +1402,14 @@
       image: 'mary/mary-wands-04.png'
     'brady': 
       image: 'brady/brady-wands-04.png'
+    'cosma': 
+      image: 'cosma/cosma-wands-04.png'
+      symbols: []
 'wands-05':
   name: 5 of Wands
   suit: wands
   index: 68
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-wands-05.png'
@@ -1038,10 +1421,14 @@
       image: 'mary/mary-wands-05.png'
     'brady': 
       image: 'brady/brady-wands-05.png'
+    'cosma': 
+      image: 'cosma/cosma-wands-05.png'
+      symbols: []
 'wands-06':
   name: 6 of Wands
   suit: wands
   index: 69
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-wands-06.png'
@@ -1053,10 +1440,14 @@
       image: 'mary/mary-wands-06.png'
     'brady': 
       image: 'brady/brady-wands-06.png'
+    'cosma': 
+      image: 'cosma/cosma-wands-06.png'
+      symbols: []
 'wands-07':
   name: 7 of Wands
   suit: wands
   index: 70
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-wands-07.png'
@@ -1068,10 +1459,14 @@
       image: 'mary/mary-wands-07.png'
     'brady': 
       image: 'brady/brady-wands-07.png'
+    'cosma': 
+      image: 'cosma/cosma-wands-07.png'
+      symbols: []
 'wands-08':
   name: 8 of Wands
   suit: wands
   index: 71
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-wands-08.png'
@@ -1083,10 +1478,14 @@
       image: 'mary/mary-wands-08.png'
     'brady': 
       image: 'brady/brady-wands-08.png'
+    'cosma': 
+      image: 'cosma/cosma-wands-08.png'
+      symbols: []
 'wands-09':
   name: 9 of Wands
   suit: wands
   index: 72
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-wands-09.png'
@@ -1098,10 +1497,14 @@
       image: 'mary/mary-wands-09.png'
     'brady': 
       image: 'brady/brady-wands-09.png'
+    'cosma': 
+      image: 'cosma/cosma-wands-09.png'
+      symbols: []
 'wands-10':
   name: 10 of Wands
   suit: wands
   index: 73
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-wands-10.png'
@@ -1113,10 +1516,14 @@
       image: 'mary/mary-wands-10.png'
     'brady': 
       image: 'brady/brady-wands-10.png'
+    'cosma': 
+      image: 'cosma/cosma-wands-10.png'
+      symbols: []
 'wands-11':
   name: Page of Wands
   suit: wands
   index: 74
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-wands-11.png'
@@ -1128,10 +1535,14 @@
       image: 'mary/mary-wands-11.png'
     'brady': 
       image: 'brady/brady-wands-11.png'
+    'cosma': 
+      image: 'cosma/cosma-wands-11.png'
+      symbols: []
 'wands-12':
   name: Knight of Wands
   suit: wands
   index: 75
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-wands-12.png'
@@ -1143,25 +1554,36 @@
       image: 'mary/mary-wands-12.png'
     'brady': 
       image: 'brady/brady-wands-12.png'
+    'cosma': 
+      image: 'cosma/cosma-wands-12.png'
+      symbols: []
 'wands-13':
   name: Queen of Wands
   suit: wands
   index: 76
+  symbols:  []
   decks:
     'rws': 
       image: 'rws/rws-wands-13.png'
+      symbols: []
     'thoth': 
       image: 'thoth/thoth-wands-13.png'
+      symbols: []
     'cbd': 
       image: 'cbd/cbd-wands-13.jpg'
     'mary': 
       image: 'mary/mary-wands-13.png'
+      symbols: []
     'brady': 
       image: 'brady/brady-wands-13.png'
+    'cosma': 
+      image: 'cosma/cosma-wands-13.png'
+      symbols: []
 'wands-14':
   name: King of Wands
   suit: wands
   index: 77
+  symbols: []
   decks:
     'rws': 
       image: 'rws/rws-wands-14.png'
@@ -1173,3 +1595,7 @@
       image: 'mary/mary-wands-14.png'
     'brady': 
       image: 'brady/brady-wands-14.png'
+    'cosma': 
+      image: 'cosma/cosma-wands-14.png'
+      symbols: []
+
