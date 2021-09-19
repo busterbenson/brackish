@@ -8,13 +8,17 @@ var indexRouter    = require('./routes/index');
 var usersRouter    = require('./routes/users');
 var readingRouter  = require('./routes/reading');
 
-var app          = express();
+var app            = express();
 
 // view engine setup
 // learn more: https://pugjs.org/api/reference.html
 app.set('views', path.join(__dirname, 'views'));
 app.set("view engine", "pug");
 
+if (app.get('env') === 'production') {
+  var enforce = require('express-sslify');
+  app.use(enforce.HTTPS({ trustProtoHeader: true }));
+}
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
