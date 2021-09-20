@@ -3,55 +3,54 @@
   name: The Fool
   suit: major
   index: 0
-  symbols: []
+  theme: possibility and beginnings
+  symbols: ['character-a', 'animal-familiar', 'flowers', 'sun']
+  desc: "You step through a doorway into a new universe. As your eyes adjust to your surroundings, try looking at them again with new eyes."
+  questions:
+    - "What possibilities might be found now if you let go of what you carry from the past?"
   decks: 
     'rws': 
       image: 'rws/rws-arcana-00.png'
-      symbols: []
     'thoth': 
       image: 'thoth/thoth-arcana-00.png'
-      symbols: []
     'cbd': 
       image: 'cbd/cbd-arcana-00.jpg'
-      symbols: []
     'mary': 
       image: 'mary/mary-arcana-00.png'
-      symbols: []
     'brady': 
       image: 'brady/brady-arcana-00.png'
-      symbols: []
     'cosma': 
       image: 'cosma/cosma-arcana-00.png'
-      symbols: []
 'major-01':
   name: The Magician
   suit: major
   index: 1
-  symbols: []
+  theme: empowerment and creating something from nothing
+  symbols: ['lemniscate']
+  desc: "You're a trickster, a wizard, a genius. With the flick of the wrist you can bring the intangible and imaginary into our physical world."
+  questions:
+    - "What might you make real? What can you real-ize?"
   decks: 
     'rws': 
       image: 'rws/rws-arcana-01.png'
-      symbols: []
     'thoth': 
       image: 'thoth/thoth-arcana-01.png'
-      symbols: []
     'cbd': 
       image: 'cbd/cbd-arcana-01.jpg'
-      symbols: []
     'mary': 
       image: 'mary/mary-arcana-01.png'
-      symbols: []
     'brady': 
       image: 'brady/brady-arcana-01.png'
-      symbols: []
     'cosma': 
       image: 'cosma/cosma-arcana-01.png'
-      symbols: []
 'major-02':
   name: The Priestess
   suit: major
   index: 2
+  theme: mystery and intuition
   symbols: []
+  desc: 
+  questions:
   decks: 
     'rws': 
       image: 'rws/rws-arcana-02.png'
@@ -75,7 +74,10 @@
   name: The Empress
   suit: major  
   index: 3
+  theme: fecundity and cultivation
   symbols: []
+  desc: 
+  questions:
   decks: 
     'rws': 
       image: 'rws/rws-arcana-03.png'
@@ -99,7 +101,10 @@
   name: The Emperor
   suit: major
   index: 4
+  theme: authority and criticism
   symbols: []
+  desc: 
+  questions:
   decks: 
     'rws': 
       image: 'rws/rws-arcana-04.png'
@@ -123,7 +128,10 @@
   name: The Heirophant
   suit: major
   index: 5
+  theme: deduction and tradition
   symbols: []
+  desc: 
+  questions:
   decks: 
     'rws': 
       image: 'rws/rws-arcana-05.png'
@@ -147,7 +155,10 @@
   name: The Lovers
   suit: major
   index: 6
+  theme: intimacy and personal choice
   symbols: []
+  desc: 
+  questions:
   decks: 
     'rws': 
       image: 'rws/rws-arcana-06.png'
@@ -171,7 +182,10 @@
   name: The Chariot
   suit: major
   index: 7
+  theme: productivity and advancement
   symbols: []
+  desc: 
+  questions:
   decks: 
     'rws': 
       image: 'rws/rws-arcana-07.png'
@@ -195,7 +209,11 @@
   name: Strength
   suit: major
   index: 8
-  symbols: []
+  theme: vitality and openness
+  symbols: ['animal-familiar', 'lemniscate', 'flowers']
+  desc: "Your strength comes from both the power to control wildness, and the wildness to break free of power's controlling structures, and these two forces sharpen each other."
+  questions:
+    - "Does it seem more appropriate to channel an extra dose of control or wildness right now?"
   decks: 
     'rws': 
       image: 'rws/rws-arcana-08.png'
@@ -219,7 +237,10 @@
   name: The Hermit
   suit: major
   index: 9
+  theme: reflection and solitude
   symbols: []
+  desc: 
+  questions:
   decks: 
     'rws': 
       image: 'rws/rws-arcana-09.png'
@@ -243,7 +264,10 @@
   name: The Wheel of Fortune
   suit: major
   index: 10
+  theme: cycles and acceptance
   symbols: []
+  desc: 
+  questions:
   decks: 
     'rws': 
       image: 'rws/rws-arcana-10.png'
@@ -267,7 +291,10 @@
   name: Justice
   suit: major
   index: 11
+  theme: structure and correction
   symbols: []
+  desc: 
+  questions:
   decks: 
     'rws': 
       image: 'rws/rws-arcana-11.png'
@@ -291,7 +318,10 @@
   name: The Hanged Man
   suit: major
   index: 12
+  theme: sacrifice and reversals
   symbols: []
+  desc: 
+  questions:
   decks: 
     'rws': 
       image: 'rws/rws-arcana-12.png'
@@ -315,7 +345,10 @@
   name: Death
   suit: major
   index: 13
+  theme: limits and transitions
   symbols: []
+  desc: 
+  questions:
   decks: 
     'rws': 
       image: 'rws/rws-arcana-13.png'
@@ -339,7 +372,10 @@
   name: Temperance
   suit: major
   index: 14
+  theme: integration and nonduality
   symbols: []
+  desc: 
+  questions:
   decks: 
     'rws': 
       image: 'rws/rws-arcana-14.png'
@@ -363,7 +399,10 @@
   name: The Devil
   suit: major
   index: 15
+  theme: indulgence and disobedience
   symbols: []
+  desc: 
+  questions:
   decks: 
     'rws': 
       image: 'rws/rws-arcana-15.png'
@@ -387,7 +426,10 @@
   name: The Tower
   suit: major
   index: 16
+  theme: upheaval and disaster
   symbols: []
+  desc: 
+  questions:
   decks: 
     'rws': 
       image: 'rws/rws-arcana-16.png'
@@ -411,7 +453,10 @@
   name: The Star
   suit: major
   index: 17
+  theme: germination and hope
   symbols: []
+  desc: 
+  questions:
   decks: 
     'rws': 
       image: 'rws/rws-arcana-17.png'
@@ -435,7 +480,10 @@
   name: The Moon
   suit: major
   index: 18
+  theme: fantasy and dreams
   symbols: []
+  desc: 
+  questions:
   decks: 
     'rws': 
       image: 'rws/rws-arcana-18.png'
@@ -459,7 +507,10 @@
   name: The Sun
   suit: major
   index: 19
-  symbols: []
+  theme: energy and attention
+  symbols: ['sun']
+  desc: 
+  questions:
   decks: 
     'rws': 
       image: 'rws/rws-arcana-19.png'
@@ -483,7 +534,10 @@
   name: Judgment
   suit: major
   index: 20
+  theme: awakening and transformation
   symbols: []
+  desc: 
+  questions:
   decks: 
     'rws': 
       image: 'rws/rws-arcana-20.png'
@@ -507,7 +561,10 @@
   name: The World
   suit: major
   index: 21
+  theme: becoming and realization
   symbols: []
+  desc: 
+  questions:
   decks: 
     'rws': 
       image: 'rws/rws-arcana-21.png'
@@ -532,7 +589,10 @@
   name: Ace of Cups
   suit: cups
   index: 22
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-cups-01.png'
@@ -551,7 +611,10 @@
   name: 2 of Cups
   suit: cups
   index: 23
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-cups-02.png'
@@ -570,7 +633,10 @@
   name: 3 of Cups
   suit: cups
   index: 24
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-cups-03.png'
@@ -589,7 +655,10 @@
   name: 4 of Cups
   suit: cups
   index: 25
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-cups-04.png'
@@ -608,7 +677,10 @@
   name: 5 of Cups
   suit: cups
   index: 26
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-cups-05.png'
@@ -627,7 +699,10 @@
   name: 6 of Cups
   suit: cups
   index: 27
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-cups-06.png'
@@ -646,7 +721,10 @@
   name: 7 of Cups
   suit: cups
   index: 28
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-cups-07.png'
@@ -665,7 +743,10 @@
   name: 8 of Cups
   suit: cups
   index: 29
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-cups-08.png'
@@ -684,7 +765,10 @@
   name: 9 of Cups
   suit: cups
   index: 30
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-cups-09.png'
@@ -703,7 +787,10 @@
   name: 10 of Cups
   suit: cups
   index: 31
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-cups-10.png'
@@ -722,7 +809,10 @@
   name: Page of Cups
   suit: cups
   index: 32
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-cups-11.png'
@@ -741,7 +831,10 @@
   name: Knight of Cups
   suit: cups
   index: 33
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-cups-12.png'
@@ -760,7 +853,10 @@
   name: Queen of Cups
   suit: cups
   index: 34
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-cups-13.png'
@@ -779,7 +875,10 @@
   name: King of Cups
   suit: cups
   index: 35
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-cups-14.png'
@@ -799,7 +898,10 @@
   name: Ace of Coins
   suit: coins
   index: 36
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-coins-01.png'
@@ -818,7 +920,10 @@
   name: 2 of Coins
   suit: coins
   index: 37
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-coins-02.png'
@@ -837,7 +942,10 @@
   name: 3 of Coins
   suit: coins
   index: 38
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-coins-03.png'
@@ -856,7 +964,10 @@
   name: 4 of Coins
   suit: coins
   index: 39
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-coins-04.png'
@@ -875,7 +986,10 @@
   name: 5 of Coins
   suit: coins
   index: 40
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-coins-05.png'
@@ -894,7 +1008,10 @@
   name: 6 of Coins
   suit: coins
   index: 41
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-coins-06.png'
@@ -913,7 +1030,10 @@
   name: 7 of Coins
   suit: coins
   index: 42
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-coins-07.png'
@@ -932,7 +1052,10 @@
   name: 8 of Coins
   suit: coins
   index: 43
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-coins-08.png'
@@ -951,7 +1074,10 @@
   name: 9 of Coins
   suit: coins
   index: 44
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-coins-09.png'
@@ -970,7 +1096,10 @@
   name: 10 of Coins
   suit: coins
   index: 45
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-coins-10.png'
@@ -989,7 +1118,10 @@
   name: Page of Coins
   suit: coins
   index: 46
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-coins-11.png'
@@ -1008,7 +1140,10 @@
   name: Knight of Coins
   suit: coins
   index: 47
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-coins-12.png'
@@ -1027,7 +1162,10 @@
   name: Queen of Coins
   suit: coins
   index: 48
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-coins-13.png'
@@ -1046,7 +1184,10 @@
   name: King of Coins
   suit: coins
   index: 49
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-coins-14.png'
@@ -1066,7 +1207,10 @@
   name: Ace of Swords
   suit: swords
   index: 50
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-swords-01.png'
@@ -1085,7 +1229,10 @@
   name: 2 of Swords
   suit: swords
   index: 51
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-swords-02.png'
@@ -1104,7 +1251,10 @@
   name: 3 of Swords
   suit: swords
   index: 52
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-swords-03.png'
@@ -1123,7 +1273,10 @@
   name: 4 of Swords
   suit: swords
   index: 53
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-swords-04.png'
@@ -1142,7 +1295,10 @@
   name: 5 of Swords
   suit: swords
   index: 54
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-swords-05.png'
@@ -1161,7 +1317,10 @@
   name: 6 of Swords
   suit: swords
   index: 55
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-swords-06.png'
@@ -1180,7 +1339,10 @@
   name: 7 of Swords
   suit: swords
   index: 56
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-swords-07.png'
@@ -1199,7 +1361,10 @@
   name: 8 of Swords
   suit: swords
   index: 57
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-swords-08.png'
@@ -1218,7 +1383,10 @@
   name: 9 of Swords
   suit: swords
   index: 58
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-swords-09.png'
@@ -1237,7 +1405,10 @@
   name: 10 of Swords
   suit: swords
   index: 59
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-swords-10.png'
@@ -1256,7 +1427,10 @@
   name: Page of Swords
   suit: swords
   index: 60
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-swords-11.png'
@@ -1275,7 +1449,10 @@
   name: Knight of Swords
   suit: swords
   index: 61
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-swords-12.png'
@@ -1294,7 +1471,10 @@
   name: Queen of Swords
   suit: swords
   index: 62
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-swords-13.png'
@@ -1313,7 +1493,10 @@
   name: King of Swords
   suit: swords
   index: 63
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-swords-14.png'
@@ -1333,7 +1516,10 @@
   name: Ace of Wands
   suit: wands
   index: 64
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-wands-01.png'
@@ -1352,7 +1538,10 @@
   name: 2 of Wands
   suit: wands
   index: 65
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-wands-02.png'
@@ -1371,7 +1560,10 @@
   name: 3 of Wands
   suit: wands
   index: 66
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-wands-03.png'
@@ -1390,7 +1582,10 @@
   name: 4 of Wands
   suit: wands
   index: 67
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-wands-04.png'
@@ -1409,7 +1604,10 @@
   name: 5 of Wands
   suit: wands
   index: 68
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-wands-05.png'
@@ -1428,7 +1626,10 @@
   name: 6 of Wands
   suit: wands
   index: 69
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-wands-06.png'
@@ -1447,7 +1648,10 @@
   name: 7 of Wands
   suit: wands
   index: 70
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-wands-07.png'
@@ -1466,7 +1670,10 @@
   name: 8 of Wands
   suit: wands
   index: 71
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-wands-08.png'
@@ -1485,7 +1692,10 @@
   name: 9 of Wands
   suit: wands
   index: 72
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-wands-09.png'
@@ -1504,7 +1714,10 @@
   name: 10 of Wands
   suit: wands
   index: 73
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-wands-10.png'
@@ -1523,7 +1736,10 @@
   name: Page of Wands
   suit: wands
   index: 74
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-wands-11.png'
@@ -1542,7 +1758,10 @@
   name: Knight of Wands
   suit: wands
   index: 75
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-wands-12.png'
@@ -1561,7 +1780,10 @@
   name: Queen of Wands
   suit: wands
   index: 76
+  theme: 
   symbols:  []
+  desc: ""
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-wands-13.png'
@@ -1583,7 +1805,10 @@
   name: King of Wands
   suit: wands
   index: 77
+  theme: 
   symbols: []
+  desc: 
+  questions:
   decks:
     'rws': 
       image: 'rws/rws-wands-14.png'

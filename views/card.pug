@@ -1,0 +1,89 @@
+extends layout
+
+block content
+  div#card(data-card=params['card'], data-deck=card_deck)
+  h1= card['name']
+
+  div.row
+    div(class='mt-4 col-12 col-md-8 order-1 order-md-2')
+      h3= card['desc']
+      if card['questions'] && card['questions'].length > 0
+        for q in card['questions']
+          h4(style='margin-top: 1em;')= q
+
+      for symbol_list, deck in symbols
+        if symbol_list.length > 0
+          div(class='symbol', id='symbol_'+deck)
+            h5(style='margin-bottom: 1em;') Symbols
+            for symbol in symbol_list
+              p
+                strong= symbol[0]+': '
+                span= symbol[1]
+
+    div(class='mt-4 col-12 col-md-4 order-2 order-md-1')
+      img.card(id='img', style='width: 100%; max-height: 90%;', src='https://brackish.s3.us-west-1.amazonaws.com/'+card['decks'][card_deck]['image'],
+      data-deck=card_deck)
+
+      div.small(class='card-name')
+        div(id='cname', style='display: inline;')= card['name'] + ' from '
+        div(id='dname', style='display: inline;') 
+          a(href=decks[card_deck]['link'], target='_blank')= decks[card_deck]['nickname']
+
+      div(id='info_rws', class='card-info', 'data-next'='thoth', data-next-img='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks']['thoth']['image'], 'data-deck-nickname'=decks['rws']['nickname'], 'data-deck-link'=decks['rws']['link'])
+
+      div(id='info_thoth', class='card-info', 'data-next'='cbd', data-next-img='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks']['cbd']['image'], 'data-deck-nickname'=decks['thoth']['nickname'], 'data-deck-link'=decks['thoth']['link'])
+
+      div(id='info_cbd', class='card-info',   'data-next'='mary', data-next-img='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks']['mary']['image'], 'data-deck-nickname'=decks['cbd']['nickname'], 'data-deck-link'=decks['cbd']['link'])
+
+      div(id='info_mary', class='card-info',  'data-next'='brady', data-next-img='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks']['brady']['image'], 'data-deck-nickname'=decks['mary']['nickname'], 'data-deck-link'=decks['mary']['link'])
+
+      div(id='info_brady', class='card-info', 'data-next'='cosma', data-next-img='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks']['cosma']['image'], 'data-deck-nickname'=decks['brady']['nickname'], 'data-deck-link'=decks['brady']['link'])
+
+      div(id='info_cosma', class='card-info',  'data-next'='rws', data-next-img='https://brackish.s3.us-west-1.amazonaws.com/'+ card['decks']['rws']['image'], 'data-deck-nickname'=decks['cosma']['nickname'], 'data-deck-link'=decks['cosma']['link'])
+
+
+block style
+  style(type='text/css').
+    .card-name {
+      text-align: center; 
+      padding: 8px; 
+      color: #666;
+    }
+    .card-name a {
+      color: #666;
+      text-decoration: underline;
+    }
+    .symbol {
+      display: none;
+      border-top: 1px solid #000;
+      margin-top: 50px;
+      padding-top: 50px;
+      color: #666;
+    }
+
+block scripts
+  script(type='text/javascript').
+    $( document ).ready(function(){
+      console.log($('#card').attr('data-deck'));
+      $('#symbol_'+$('#card').attr('data-deck')).attr('style', 'display: block');
+
+      $('.card').click(function() {
+        var card_deck = $(this).attr('data-deck')
+
+        // Figure out the next card
+        var next_deck = $('#info_'+card_deck).attr('data-next')
+        var next_img  = $('#info_'+card_deck).attr('data-next-img')
+
+        // Update the image
+        $('#img').attr('src', next_img)
+        $('#img').attr('data-deck', next_deck)
+
+        // Update the name
+        $('#dname').html("<a target='_blank' href='"+$('#info_'+next_deck).attr('data-deck-link')+"'>"+$('#info_'+next_deck).attr('data-deck-nickname')+"</a>")
+
+        // Update the symbols
+        $('#symbol_'+card_deck).attr('style', 'display: none;');
+        $('#symbol_'+next_deck).attr('style', 'display: block;');
+
+      });
+    });

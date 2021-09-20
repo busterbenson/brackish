@@ -9,7 +9,7 @@ block content
   - var deck_for_card = []
   - var counter = 0
   each card in tarot
-    - var random_num = Math.round(Math.random() * 4)
+    - var random_num = Math.round(Math.random() * 5)
     - var random_deck_token = deck_tokens[random_num]
     
     - var next_deck_token = null
@@ -84,6 +84,9 @@ block style
     .card-name, #link {
       font-family: 'Source Sans Pro', sans-serif;
     }
+    #link a {
+      text-decoration: none;
+    }
     #prompt1a, #prompt2a, #prompt3a {
       margin-bottom: 10px;
     }
@@ -96,7 +99,7 @@ block style
       padding: 8px; 
       color: #666;
     }
-    .card-name a, #link a {
+    .card-name a {
       color: #666;
       text-decoration: underline;
     }
@@ -121,7 +124,8 @@ block scripts
                           $('#img2').attr('data-deck-token')+'_'+$('#img2').attr('data-card-token') +'/'+
                           $('#img3').attr('data-deck-token')+'_'+$('#img3').attr('data-card-token');
 
-        $('#link').html('Link to this page: <a href="'+link_string+'">'+link_string+'</a>')
+        $('#link').html('<a href="' + link_string + '" class="btn btn-outline-dark" style="text-align:center">Link to this page</a>')
+
       }
       link_to_this_page();
 

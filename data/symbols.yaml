@@ -1,1 +1,53 @@
 ---
+'animal-familiar': 
+  default: ["Animal familiar",""]
+  cards:
+    - token: major-00
+      rws: ["White Dog", "Playing at the Fool's heels, represents harmony with our innocence."]
+      thoth: ["Tiger", "Biting the Fool's leg, highlighting his innocence and vulnerability."]
+      cbd: ["Blue Dog", "Tearing the Fool's pants off, highlighting his innocence and vulnerability."]
+      mary: ["Butterflies", "Symbols of transformation and the soul's migration and evolution."]
+    - token: major-08
+      rws: ["The Lion", "Wildness tamed."]
+      thoth: ["Seven-headed beast", "Wildness indulged."]
+      cbd: ["The Lion", "Wildness fully domesticated."]
+      mary: ["The Lion", "Wildness channeled into creation."]
+      brady: ["Grizzly Bear", "Channeling wildness into wisdom."]
+    - token: wands-13
+      rws: ["Black Cat", "Guarding the queen's throne."]
+
+'character-a': 
+  default: ["The Fool",""]
+  cards:
+    - token: major-00
+      rws: ["The Fool", "Truly unburdened by experience."]
+      thoth: ["The Green Man", "A nod to Pan and the Green Knight, characters fully aligned with nature."]
+      mary: ["The Fool", "The embodiment of life, vitality, and infinite potential."]
+      brady: ["Brown-headed Cowbird chick", "Hatching in the nest of an Indigo Bunting."]
+
+'flowers': 
+  default: ["Flowers", ""]
+  cards: 
+    - token: major-00
+      rws: ["White Rose", "Roses symbolize passion, and a white rose represents a pure, innocent form of passion."]
+    - token: major-08
+      rws: ["Wreath of Roses", "Roses represent passion, and here they're twisted into shapes that imply some amount of control and taming."]
+
+'lemniscate':
+  default: ["Lemniscate ∞", "Sign for infinity and power over nature."]
+  cards:
+    - token: major-01
+      rws: ["Infinity ∞", "Creativity and power over nature."]
+    - token: major-08
+      rws: ["Infinity ∞", "Above the maiden's head, like with the Magician, showing power over nature."]
+      cbd: ["Infinity ∞", "In the shape of the woman's hat, hinting at the Magician's power over nature."]
+      brady: ["Infinity ∞", "The snake around the bear's legs, signaling a collaboration between power and wildness."]
+
+'sun':
+  default: ["The Sun",""]
+  cards: 
+    - token: major-00
+      rws: ["The Sun", "Joy, release from worry."]
+      thoth: ["The Sun", "Between his legs, represents joy and also sexual energy."]
+    - token: major-19
+      rws: ["The Sun", "Joy, release from worry."]
