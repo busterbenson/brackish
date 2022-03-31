@@ -7,6 +7,7 @@ var logger         = require('morgan');
 var indexRouter    = require('./routes/index');
 var usersRouter    = require('./routes/users');
 var readingRouter  = require('./routes/reading');
+var cardRouter  = require('./routes/get-a-card');
 
 var app            = express();
 
@@ -31,6 +32,7 @@ app.use("/stylesheets", express.static(path.join(__dirname, "node_modules/bootst
 // Routers
 app.use(indexRouter);
 app.use(readingRouter);
+app.use(cardRouter);
 
 // Catch 404 and forward to error handler
 app.use(function(req, res, next) {
